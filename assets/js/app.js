@@ -40,6 +40,5 @@ liveSocket.connect()
 // >> liveSocket.enableLatencySim(1000)
 window.liveSocket = liveSocket
 
-import "./pickup"
 import "./dark-mode"
 import "./menu-toggle"

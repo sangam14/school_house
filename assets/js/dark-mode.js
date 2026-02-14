@@ -7,12 +7,12 @@ const darkModeToggleInput = document.getElementById('dark-mode-toggle')
 function setDarkMode(on) {
     if (on) {
         darkModeToggleInput.checked = true
-        document.documentElement.classList.add('dark')
+        document.documentElement.setAttribute('data-theme', 'dark')
         document.getElementById('sun-icon').classList.add('hidden')
         document.getElementById('moon-icon').classList.remove('hidden')
     } else {
         darkModeToggleInput.checked = false
-        document.documentElement.classList.remove('dark')
+        document.documentElement.removeAttribute('data-theme')
         document.getElementById('moon-icon').classList.add('hidden')
         document.getElementById('sun-icon').classList.remove('hidden')
     }
@@ -29,7 +29,7 @@ if (localStorage.theme) {
     setDarkMode(localStorage.theme === 'dark')
 } else if (
     userPrefersDarkMode ||
-    document.documentElement.classList.contains('dark')
+    document.documentElement.hasAttribute('data-theme')
 ) {
     setDarkMode(true)
 } else {
@@ -46,7 +46,7 @@ darkModeToggleContainer.addEventListener('click', function () {
     }
 })
 
-// remove preload class after the page laods so the styles
+// remove preload class after the page loads so the styles
 // will transition smoothly when switching between dark and
 // light mode. Without the preload class, the transition will
 // happen on page load if dark mode is enabled
