@@ -2,22 +2,65 @@
 
 [![Continuous Integration](https://github.com/elixirschool/school_house/actions/workflows/ci.yml/badge.svg)](https://github.com/elixirschool/school_house/actions/workflows/ci.yml) [![Deploy](https://github.com/elixirschool/school_house/actions/workflows/deploy.yml/badge.svg)](https://github.com/elixirschool/school_house/actions/workflows/deploy.yml)
 
-School House is the new era of [elixirschool.com](https://elixirschool.com) now powered by Elixir and Phoenix :tada:
+School House powers [elixirschool.com](https://elixirschool.com), built with Elixir, Phoenix, and [NimblePublisher](https://github.com/dashbitco/nimble_publisher).
 
-By leveraging Dashbit's [NimblePublisher](https://github.com/dashbitco/nimble_publisher) and some restructing of the existing lessons we're able to use the lessons so many have contributed to while delivering them in an improved experience!
+Lesson and blog content lives in the [elixirschool/elixirschool](https://github.com/elixirschool/elixirschool) repository and is included here as a git submodule.
+
+## Prerequisites
+
+- Elixir ~> 1.18
+- Erlang/OTP ~> 27
+- Node.js (for asset compilation)
 
 ## Development
 
-To get up and running all we need is a single command:
+Clone the repo with the content submodule:
 
 ```shell
-$ make setup
+git clone --recursive https://github.com/elixirschool/school_house.git
+cd school_house
 ```
 
-This will fetch dependencies, download lessons and blog posts from the [external repository](https://github.com/elixirschool/elixirschool), and compile the project.
-
-Then start the phoenix server with:
+If you've already cloned without `--recursive`, initialize the submodule:
 
 ```shell
-$ mix phx.server
+git submodule update --init --depth 1
+```
+
+Then set up dependencies and assets:
+
+```shell
+make setup
+```
+
+Start the Phoenix server:
+
+```shell
+mix phx.server
+```
+
+Visit [`localhost:4000`](http://localhost:4000) in your browser.
+
+## Updating Content
+
+To pull the latest lessons and blog posts:
+
+```shell
+cd content
+git pull origin main
+cd ..
+make content
+```
+
+Commit the updated submodule pointer when you're ready to ship:
+
+```shell
+git add content
+git commit -m "chore: update content submodule"
+```
+
+## Docker
+
+```shell
+make build
 ```
