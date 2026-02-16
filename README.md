@@ -33,9 +33,11 @@ school_house/
 
 ## Prerequisites
 
-- Elixir ~> 1.13
-- Erlang/OTP compatible with your Elixir version
+- Elixir ~> 1.18
+- Erlang/OTP 27+
 - Node.js (for asset compilation)
+
+Version management is handled via `.tool-versions` (asdf) or `mise.toml` (mise).
 
 ## Getting Started
 
