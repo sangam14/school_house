@@ -1,5 +1,3 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
     content: [
         '../lib/school_house_web/**/*.ex',
@@ -44,70 +42,7 @@ module.exports = {
                     amber: 'var(--accent-amber)',
                     rose: 'var(--accent-rose)',
                 },
-
-                // Legacy colors (backward compat - removed in Phase 7)
-                'brand-purple-100': '#caa2f5',
-                'brand-purple-200': '#cfbae6',
-                'brand-purple-300': '#967ab4',
-                'brand-purple-800': '#7c6f89',
-                'brand-gray-100': '#f9fafb',
-                'brand-gray-200': '#f5f6f7',
-                'brand-gray-300': '#f4f6f7',
-                'brand-gray-400': '#A1A1AA',
-                'brand-gray-500': '#9fa3a6',
-                'brand-gray-550': '#717171',
-                'brand-gray-600': '#666666',
-                'brand-gray-650': '#4a4a4a',
-                'brand-gray-700': '#3d4449',
-                'brand-gray-750': '#3c4349',
-                'brand-gray-800': '#31373b',
-                'brand-gray-900': '#22272e',
-                'brand-red-300': '#f56a6a',
-                'brand-red-500': '#c0394d',
             },
-            backgroundColor: (theme) => ({
-                ...theme('colors'),
-                // Legacy semantic bg colors (backward compat)
-                nav: {
-                    DEFAULT: theme('colors.brand-gray-300'),
-                    dark: theme('colors.brand-gray-800'),
-                },
-                body: {
-                    DEFAULT: colors.white,
-                    dark: theme('colors.brand-gray-700'),
-                },
-                purple: {
-                    DEFAULT: theme('colors.brand-purple-800'),
-                    dark: theme('colors.brand-purple-100'),
-                },
-                footer: {
-                    DEFAULT: theme('colors.brand-gray-200'),
-                    dark: theme('colors.brand-gray-800'),
-                },
-            }),
-            textColor: (theme) => ({
-                // Legacy semantic text colors (backward compat)
-                primary: {
-                    DEFAULT: theme('colors.brand-gray-750'),
-                    dark: theme('colors.brand-gray-200'),
-                },
-                heavy: {
-                    DEFAULT: theme('colors.brand-gray-800'),
-                    dark: colors.white,
-                },
-                light: {
-                    DEFAULT: theme('colors.brand-gray-650'),
-                    dark: theme('colors.brand-gray-300'),
-                },
-                lighter: {
-                    DEFAULT: theme('colors.brand-gray-550'),
-                    dark: theme('colors.brand-gray-500'),
-                },
-                purple: {
-                    DEFAULT: theme('colors.brand-purple-800'),
-                    dark: theme('colors.brand-purple-100'),
-                },
-            }),
             boxShadow: {
                 'design-sm': 'var(--shadow-sm)',
                 'design-md': 'var(--shadow-md)',

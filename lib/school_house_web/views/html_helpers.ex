@@ -32,7 +32,7 @@ defmodule SchoolHouseWeb.HtmlHelpers do
         conn,
         section,
         name,
-        class \\ "block hover:bg-purple hover:dark:bg-purple text-primary dark:text-primary-dark hover:text-white hover:dark:text-light-dark",
+        class \\ "block text-on-surface-secondary hover:text-brand-500 hover:bg-surface-secondary transition-colors",
         do: contents
       ) do
     {destination, additional_classes} =
@@ -83,7 +83,7 @@ defmodule SchoolHouseWeb.HtmlHelpers do
     content_tag(
       :span,
       gettext("Coming Soon"),
-      class: "rounded py-px px-1 bg-purple text-xs text-white font-semibold self-center flex-shrink-0"
+      class: "rounded py-px px-1 bg-brand-500 text-xs text-white font-semibold self-center flex-shrink-0"
     )
   end
 
