@@ -35,7 +35,7 @@ msgstr "Δομές Ελέγχου"
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:17
 #, elixir-format, elixir-autogen
 msgid "Enum"
-msgstr ""
+msgstr "Enum"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:20
 #, elixir-format, elixir-autogen
@@ -111,7 +111,7 @@ msgstr "Ημερομηνία και Ώρα"
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:62
 #, elixir-format, elixir-autogen
 msgid "Doctests"
-msgstr ""
+msgstr "Doctests"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:25
 #, elixir-format, elixir-autogen
@@ -124,7 +124,7 @@ msgstr "Τεκμηρίωση"
 #: lib/school_house_web/templates/report/report.html.heex:13
 #, elixir-format, elixir-autogen
 msgid "Ecto"
-msgstr ""
+msgstr "Ecto"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:38
 #, elixir-format, elixir-autogen
@@ -169,7 +169,7 @@ msgstr "Διάφορα"
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "Mix"
-msgstr ""
+msgstr "Mix"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:46
 #, elixir-format, elixir-autogen
@@ -440,7 +440,7 @@ msgstr ""
 #: lib/school_house_web/templates/page/why.html.heex:90
 #, elixir-format, elixir-autogen
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: lib/school_house_web/templates/page/index.html.heex:89
 #, elixir-format, elixir-autogen
@@ -777,7 +777,7 @@ msgstr "Δεδομένου ότι οι συναρτήσεις είναι πολ�
 #: lib/school_house_web/templates/page/why.html.heex:83
 #, elixir-format, elixir-autogen
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: lib/school_house_web/templates/page/index.html.heex:146
 #, elixir-format
@@ -1003,27 +1003,27 @@ msgstr ""
 #: lib/school_house_web/templates/page/index.html.heex:147
 #, elixir-autogen, elixir-format
 msgid "Begin with Basics"
-msgstr ""
+msgstr "Ξεκινήστε με τα Βασικά"
 
 #: lib/school_house_web/templates/page/index.html.heex:100
 #, elixir-autogen, elixir-format
 msgid "Break problems into simple, side-effect free functions. Better test coverage, fewer bugs, and solutions built from well-tested compositions."
-msgstr ""
+msgstr "Σπάστε τα προβλήματα σε απλές συναρτήσεις χωρίς παρενέργειες. Καλύτερη κάλυψη δοκιμών, λιγότερα σφάλματα και λύσεις από καλά δοκιμασμένες συνθέσεις."
 
 #: lib/school_house_web/templates/page/index.html.heex:149
 #, elixir-autogen, elixir-format
 msgid "Browse All Posts"
-msgstr ""
+msgstr "Δείτε όλες τις δημοσιεύσεις"
 
 #: lib/school_house_web/templates/page/index.html.heex:88
 #, elixir-autogen, elixir-format
 msgid "Built for the Modern World"
-msgstr ""
+msgstr "Φτιαγμένο για τον σύγχρονο κόσμο"
 
 #: lib/school_house_web/templates/page/index.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Built on the Erlang VM (BEAM), battle-tested for 30+ years. Get lightweight processes, fault tolerance, and hot code reloading out of the box."
-msgstr ""
+msgstr "Χτισμένο πάνω στο Erlang VM (BEAM), δοκιμασμένο σε μάχη για 30+ χρόνια. Ελαφριές διεργασίες, ανοχή σφαλμάτων και hot code reloading από το κουτί."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:60
 #: lib/school_house_web/templates/page/get_involved.html.heex:4
@@ -1039,7 +1039,7 @@ msgstr "Εταιρίες"
 #: lib/school_house_web/templates/page/index.html.heex:128
 #, elixir-autogen, elixir-format
 msgid "Dozens of conferences, hundreds of meetups, an active community across Slack, Discord, and the forum. Plus 13,000+ packages on Hex."
-msgstr ""
+msgstr "Δεκάδες συνεδρίων, εκατοντάδες meetups, ενεργή κοινότητα σε Slack, Discord και το forum. Επίσης 13.000+ πακέτα στο Hex."
 
 #: lib/school_house_web/templates/page/index.html.heex:13
 #, elixir-autogen, elixir-format, fuzzy
@@ -1054,27 +1054,27 @@ msgstr ""
 #: lib/school_house_web/live/conferences_live.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Events"
-msgstr ""
+msgstr "Εκδηλώσεις"
 
 #: lib/school_house_web/templates/page/why.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Explore"
-msgstr ""
+msgstr "Εξερεύνηση"
 
 #: lib/school_house_web/templates/post/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "From the Blog"
-msgstr ""
+msgstr "Από το Blog"
 
 #: lib/school_house_web/templates/page/index.html.heex:71
 #, elixir-autogen, elixir-format
 msgid "Hex Packages"
-msgstr ""
+msgstr "Πακέτα Hex"
 
 #: lib/school_house_web/templates/page/index.html.heex:144
 #, elixir-autogen, elixir-format
 msgid "Jump into your first lesson and discover why developers love Elixir. Free, open-source, and community-driven."
-msgstr ""
+msgstr "Μπείτε στο πρώτο σας μάθημα και ανακαλύψτε γιατί οι προγραμματιστές αγαπούν την Elixir. Δωρεάν, ανοιχτού κώδικα και καθοδηγούμενο από την κοινότητα."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:33
 #, elixir-autogen, elixir-format, fuzzy
@@ -1094,39 +1094,39 @@ msgstr "Μαθήματα"
 #: lib/school_house_web/templates/page/podcasts.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Listen & Learn"
-msgstr ""
+msgstr "Ακούστε και Μάθετε"
 
 #: lib/school_house_web/templates/post/post.html.heex:6
 #, elixir-autogen, elixir-format
 msgid "Posted"
-msgstr ""
+msgstr "Δημοσιεύτηκε"
 
 #: lib/school_house_web/templates/page/index.html.heex:143
 #, elixir-autogen, elixir-format
 msgid "Ready to Get Started?"
-msgstr ""
+msgstr "Έτοιμοι να ξεκινήσετε;"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:47
 #, elixir-autogen, elixir-format
 msgid "Resources"
-msgstr ""
+msgstr "Πόροι"
 
 #: lib/school_house_web/templates/page/index.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Start Learning"
-msgstr ""
+msgstr "Ξεκινήστε να μαθαίνετε"
 
 #: lib/school_house_web/templates/page/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "The premier destination for learning the Elixir programming language. From first steps to advanced OTP patterns — free, community-driven lessons that grow with you."
-msgstr ""
+msgstr "Ο κορυφαίος προορισμός για την εκμάθηση της γλώσσας προγραμματισμού Elixir. Από τα πρώτα βήματα μέχρι προχωρημένα πρότυπα OTP — δωρεάν, μαθήματα από την κοινότητα που εξελίσσονται μαζί σας."
 
 #: lib/school_house_web/templates/layout/_dark_mode_toggle.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "Εναλλαγή σκοτεινής λειτουργίας"
 
 #: lib/school_house_web/templates/page/index.html.heex:9
 #, elixir-autogen, elixir-format
 msgid "Translated in 25+ Languages"
-msgstr ""
+msgstr "Μεταφρασμένο σε 25+ γλώσσες"
