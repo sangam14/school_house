@@ -20,42 +20,42 @@ msgstr ""
 #: lib/school_house_web/templates/report/report.html.heex:8
 #, elixir-format, elixir-autogen
 msgid "Basics"
-msgstr ""
+msgstr "Le basi"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:16
 #, elixir-format, elixir-autogen
 msgid "Collections"
-msgstr ""
+msgstr "Collezioni"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:19
 #, elixir-format, elixir-autogen
 msgid "Control Structures"
-msgstr ""
+msgstr "Strutture di controllo"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:17
 #, elixir-format, elixir-autogen
 msgid "Enum"
-msgstr ""
+msgstr "Enum"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:20
 #, elixir-format, elixir-autogen
 msgid "Functions"
-msgstr ""
+msgstr "Funzioni"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:22
 #, elixir-format, elixir-autogen
 msgid "Modules"
-msgstr ""
+msgstr "Moduli"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:18
 #, elixir-format, elixir-autogen
 msgid "Pattern Matching"
-msgstr ""
+msgstr "Pattern Matching"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:21
 #, elixir-format, elixir-autogen
 msgid "Pipe Operator"
-msgstr ""
+msgstr "Pipe Operator"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:38
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:44
@@ -63,60 +63,60 @@ msgstr ""
 #: lib/school_house_web/templates/report/report.html.heex:10
 #, elixir-format, elixir-autogen
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzato"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:82
 #, elixir-format, elixir-autogen
 msgid "Associations"
-msgstr ""
+msgstr "Associazioni"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:52
 #, elixir-format, elixir-autogen
 msgid "Behaviours"
-msgstr ""
+msgstr "Behaviours"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:81
 #, elixir-format, elixir-autogen
 msgid "Changesets"
-msgstr ""
+msgstr "Changesets"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:26
 #, elixir-format, elixir-autogen
 msgid "Comprehensions"
-msgstr ""
+msgstr "Comprehensions"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:41
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Concurrency"
-msgstr ""
+msgstr "Concorrenza"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:37
 #, elixir-format, elixir-autogen
 msgid "Custom Mix Tasks"
-msgstr ""
+msgstr "Task Mix personalizzati"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:68
 #: lib/school_house_web/templates/lesson/_data_processing.html.heex:3
 #: lib/school_house_web/templates/report/report.html.heex:12
 #, elixir-format, elixir-autogen
 msgid "Data Processing"
-msgstr ""
+msgstr "Elaborazione dei dati"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:28
 #, elixir-format, elixir-autogen
 msgid "Date and Time"
-msgstr ""
+msgstr "Data e ora"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:62
 #, elixir-format, elixir-autogen
 msgid "Doctests"
-msgstr ""
+msgstr "Doctests"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:25
 #, elixir-format, elixir-autogen
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazione"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:39
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:78
@@ -124,27 +124,27 @@ msgstr ""
 #: lib/school_house_web/templates/report/report.html.heex:13
 #, elixir-format, elixir-autogen
 msgid "Ecto"
-msgstr ""
+msgstr "Ecto"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:38
 #, elixir-format, elixir-autogen
 msgid "Erlang Interoperability"
-msgstr ""
+msgstr "Interoperabilità con Erlang"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:39
 #, elixir-format, elixir-autogen
 msgid "Error Handling"
-msgstr ""
+msgstr "Gestione degli errori"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:40
 #, elixir-format, elixir-autogen
 msgid "Executables"
-msgstr ""
+msgstr "Eseguibili"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:29
 #, elixir-format, elixir-autogen
 msgid "IEX Helpers"
-msgstr ""
+msgstr "Helper IEx"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:37
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:35
@@ -152,76 +152,76 @@ msgstr ""
 #: lib/school_house_web/templates/report/report.html.heex:9
 #, elixir-format, elixir-autogen
 msgid "Intermediate"
-msgstr ""
+msgstr "Intermedio"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:49
 #, elixir-format, elixir-autogen
 msgid "Metaprogramming"
-msgstr ""
+msgstr "Metaprogrammazione"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:98
 #: lib/school_house_web/templates/lesson/_misc.html.heex:3
 #: lib/school_house_web/templates/report/report.html.heex:15
 #, elixir-format, elixir-autogen
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Varie"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "Mix"
-msgstr ""
+msgstr "Mix"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:46
 #, elixir-format, elixir-autogen
 msgid "OTP Concurrency"
-msgstr ""
+msgstr "Concorrenza OTP"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:48
 #, elixir-format, elixir-autogen
 msgid "OTP Distribution"
-msgstr ""
+msgstr "Distribuzione OTP"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:47
 #, elixir-format, elixir-autogen
 msgid "OTP Supervisors"
-msgstr ""
+msgstr "Supervisori OTP"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:53
 #, elixir-format, elixir-autogen
 msgid "Protocols"
-msgstr ""
+msgstr "Protocolli"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:84
 #, elixir-format, elixir-autogen
 msgid "Querying: Advanced"
-msgstr ""
+msgstr "Query: Avanzato"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:83
 #, elixir-format, elixir-autogen
 msgid "Querying: Basics"
-msgstr ""
+msgstr "Query: Le basi"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:24
 #, elixir-format, elixir-autogen
 msgid "Sigils"
-msgstr ""
+msgstr "Sigils"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:51
 #, elixir-format, elixir-autogen
 msgid "Specifications and types"
-msgstr ""
+msgstr "Specifiche e tipi"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:87
 #: lib/school_house_web/templates/lesson/_storage.html.heex:3
 #: lib/school_house_web/templates/report/report.html.heex:14
 #, elixir-format, elixir-autogen
 msgid "Storage"
-msgstr ""
+msgstr "Archiviazione"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:27
 #, elixir-format, elixir-autogen
 msgid "Strings"
-msgstr ""
+msgstr "Stringhe"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:40
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:59
@@ -229,12 +229,12 @@ msgstr ""
 #: lib/school_house_web/templates/report/report.html.heex:11
 #, elixir-format, elixir-autogen
 msgid "Testing"
-msgstr ""
+msgstr "Test"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:50
 #, elixir-format, elixir-autogen
 msgid "Umbrella Projects"
-msgstr ""
+msgstr "Progetti Umbrella"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:63
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:64
@@ -253,12 +253,12 @@ msgstr ""
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:108
 #, elixir-format, elixir-autogen
 msgid "library"
-msgstr ""
+msgstr "libreria"
 
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Scalable"
-msgstr ""
+msgstr "Scalabile"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:53
 #: lib/school_house_web/templates/layout/_header.html.heex:12
@@ -268,297 +268,297 @@ msgstr ""
 #: lib/school_house_web/templates/page/why.html.heex:5
 #, elixir-format, elixir-autogen
 msgid "Why Elixir?"
-msgstr ""
+msgstr "Perché Elixir?"
 
 #: lib/school_house_web/templates/report/_section.html.heex:10
 #, elixir-format, elixir-autogen
 msgid "Lesson"
-msgstr ""
+msgstr "Lezione"
 
 #: lib/school_house_web/templates/report/_section.html.heex:16
 #, elixir-format, elixir-autogen
 msgid "Original Version"
-msgstr ""
+msgstr "Versione originale"
 
 #: lib/school_house_web/templates/report/_section.html.heex:13
 #, elixir-format, elixir-autogen
 msgid "Translated Title"
-msgstr ""
+msgstr "Titolo tradotto"
 
 #: lib/school_house_web/templates/report/_section.html.heex:19
 #, elixir-format, elixir-autogen
 msgid "Translated Version"
-msgstr ""
+msgstr "Versione tradotta"
 
 #: lib/school_house_web/controllers/page_controller.ex:19
 #: lib/school_house_web/templates/layout/_footer.html.heex:67
 #: lib/school_house_web/templates/report/report.html.heex:4
 #, elixir-format, elixir-autogen
 msgid "Translation Report"
-msgstr ""
+msgstr "Report di traduzione"
 
 #: lib/school_house_web/templates/page/why.html.heex:92
 #, elixir-format, elixir-autogen
 msgid "A Slack alternative built with Elixir is fast becoming a popular chat option for the community."
-msgstr ""
+msgstr "Un'alternativa a Slack costruita con Elixir sta rapidamente diventando un'opzione di chat popolare per la comunità."
 
 #: lib/school_house_web/views/error_view.ex:21
 #, elixir-format, elixir-autogen
 msgid "An error occurred."
-msgstr ""
+msgstr "Si è verificato un errore."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:97
 #, elixir-format
 msgid "Announcements"
-msgstr ""
+msgstr "Annunci"
 
 #: lib/school_house_web/templates/post/index.html.heex:9
 #, elixir-format, elixir-autogen
 msgid "Articles authored by Elixir School contributors and members of the community."
-msgstr ""
+msgstr "Articoli scritti dai contributori di Elixir School e dai membri della comunità."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:41
 #, elixir-format, elixir-autogen
 msgid "As you read lessons, if you see an opportunity for improvement go ahead and create a pull request with the change, the next reader will thank you. Steps for translating a lesson"
-msgstr ""
+msgstr "Mentre leggi le lezioni, se vedi un'opportunità di miglioramento, crea una pull request con la modifica: il prossimo lettore ti ringrazierà. Passaggi per tradurre una lezione"
 
 #: lib/school_house_web/templates/page/why.html.heex:93
 #, elixir-format, elixir-autogen
 msgid "Be sure to check it out!"
-msgstr ""
+msgstr "Non esitare a dare un'occhiata!"
 
 #: lib/school_house_web/templates/page/why.html.heex:111
 #, elixir-format, elixir-autogen
 msgid "Be sure to follow the popular Elixir hashtags"
-msgstr ""
+msgstr "Segui gli hashtag più popolari di Elixir"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:50
 #: lib/school_house_web/templates/layout/_header.html.heex:18
 #: lib/school_house_web/templates/layout/_header.html.heex:51
 #, elixir-format, elixir-autogen
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: lib/school_house_web/templates/lesson/_intermediate.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Building on upon our foundation these lessons introduce topics like concurrency, error handling, and interoperability."
-msgstr ""
+msgstr "Basandosi sulle nostre fondamenta, queste lezioni introducono argomenti come la concorrenza, la gestione degli errori e l'interoperabilità."
 
 #: lib/school_house_web/templates/page/index.html.heex:92
 #, elixir-format
 msgid "Built on the back of a giant, the Erlang runtime system, Elixir takes things even further with easy extensibility, compatibility with Erlang and other BEAM languages, and an ever expanding collection of libraries and packages to improve developer happiness."
-msgstr ""
+msgstr "Costruito sul sistema di runtime Erlang, Elixir va oltre con un'estensibilità semplice, la compatibilità con Erlang e altri linguaggi BEAM, e una collezione in continua espansione di librerie e pacchetti."
 
 #: lib/school_house_web/templates/page/why.html.heex:51
 #, elixir-format, elixir-autogen
 msgid "Bundled with Elixir is the venerable ExUnit library providing everything necessary to comprehensively test your applications."
-msgstr ""
+msgstr "Inclusa con Elixir, la libreria ExUnit fornisce tutto il necessario per testare in modo completo le applicazioni."
 
 #: lib/school_house_web/templates/post/post.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "By"
-msgstr ""
+msgstr "Di"
 
 #: lib/school_house_web/templates/page/index.html.heex:143
 #, elixir-format
 msgid "By The Numbers"
-msgstr ""
+msgstr "In cifre"
 
 #: lib/school_house_web/templates/page/why.html.heex:27
 #, elixir-format, elixir-autogen
 msgid "By eliminating the ability to mutate state outside of scope, functional programs are often easier to follow and contain fewer bugs."
-msgstr ""
+msgstr "Eliminando la possibilità di modificare lo stato al di fuori dell'ambito, i programmi funzionali sono spesso più facili da seguire e contengono meno bug."
 
 #: lib/school_house_web/templates/page/index.html.heex:73
 #, elixir-format
 msgid "By focusing on breaking problems down into simple side-effect free functions we can ensure fewer bugs, better test coverage, while incrementally building our solutions through the composition of well tested functions."
-msgstr ""
+msgstr "Concentrandosi sulla scomposizione dei problemi in funzioni semplici senza effetti collaterali, possiamo garantire meno bug e una migliore copertura dei test."
 
 #: lib/school_house_web/templates/lesson/lesson.html.heex:22
 #, elixir-format, elixir-autogen
 msgid "Caught a mistake or want to contribute to the lesson?"
-msgstr ""
+msgstr "Hai trovato un errore o vuoi contribuire alla lezione?"
 
 #: lib/school_house_web/live/conferences_live.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "Check out all of the conferences that focus on Elixir!"
-msgstr ""
+msgstr "Scopri tutte le conferenze dedicate a Elixir!"
 
 #: lib/school_house_web/templates/page/podcasts.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "Check out all the great of Podcasts that focus on Elixir and the BEAM ecosystem!"
-msgstr ""
+msgstr "Scopri tutti gli eccellenti podcast dedicati a Elixir e all'ecosistema BEAM!"
 
 #: lib/school_house_web/templates/report/_coming_soon.html.heex:6
 #: lib/school_house_web/views/html_helpers.ex:85
 #, elixir-format, elixir-autogen
 msgid "Coming Soon"
-msgstr ""
+msgstr "In arrivo"
 
 #: lib/school_house_web/templates/page/index.html.heex:184
 #, elixir-format
 msgid "Companies"
-msgstr ""
+msgstr "Aziende"
 
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Compatible with Erlang"
-msgstr ""
+msgstr "Compatibile con Erlang"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:52
 #: lib/school_house_web/templates/page/index.html.heex:63
 #: lib/school_house_web/templates/page/why.html.heex:115
 #, elixir-format, elixir-autogen
 msgid "Conferences"
-msgstr ""
+msgstr "Conferenze"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:56
 #, elixir-format, elixir-autogen
 msgid "Contribute to the Blog"
-msgstr ""
+msgstr "Contribuisci al blog"
 
 #: lib/school_house_web/live/conferences_live.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "Country"
-msgstr ""
+msgstr "Paese"
 
 #: lib/school_house_web/templates/page/why.html.heex:26
 #, elixir-format, elixir-autogen
 msgid "Data is not mutated, rather transformed, into a new set of data."
-msgstr ""
+msgstr "I dati non vengono modificati, ma trasformati in un nuovo insieme di dati."
 
 #: lib/school_house_web/live/conferences_live.html.heex:40
 #, elixir-format, elixir-autogen
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:103
 #, elixir-format, elixir-autogen
 msgid "Debugging"
-msgstr ""
+msgstr "Debug"
 
 #: lib/school_house_web/templates/page/why.html.heex:90
 #, elixir-format, elixir-autogen
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: lib/school_house_web/templates/page/index.html.heex:89
 #, elixir-format, elixir-autogen
 msgid "Discover why Elixir's popularity has skyrocketed and new companies adopt it daily."
-msgstr ""
+msgstr "Scopri perché la popolarità di Elixir è cresciuta vertiginosamente e nuove aziende lo adottano ogni giorno."
 
 #: lib/school_house_web/templates/page/why.html.heex:48
 #, elixir-format, elixir-autogen
 msgid "Easy to Test"
-msgstr ""
+msgstr "Facile da testare"
 
 #: lib/school_house_web/templates/lesson/lesson.html.heex:24
 #, elixir-format, elixir-autogen
 msgid "Edit this lesson on GitHub!"
-msgstr ""
+msgstr "Modifica questa lezione su GitHub!"
 
 #: lib/school_house_web/live/conferences_live.html.heex:5
 #, elixir-format, elixir-autogen
 msgid "Elixir Conferences"
-msgstr ""
+msgstr "Conferenze Elixir"
 
 #: lib/school_house_web/templates/page/why.html.heex:99
 #, elixir-format, elixir-autogen
 msgid "Elixir Forum"
-msgstr ""
+msgstr "Elixir Forum"
 
 #: lib/school_house_web/templates/page/podcasts.html.heex:5
 #, elixir-format, elixir-autogen
 msgid "Elixir Podcasts"
-msgstr ""
+msgstr "Podcast Elixir"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:10
 #: lib/school_house_web/templates/layout/_header.html.heex:8, lib/school_house_web/templates/post/post.html.heex:3
 #, elixir-format
 msgid "Elixir School"
-msgstr ""
+msgstr "Elixir School"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:22
 #, elixir-format, elixir-autogen
 msgid "Elixir School is an open source project, with code hosted on"
-msgstr ""
+msgstr "Elixir School è un progetto open source, con il codice ospitato su"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "Elixir School is built by contributors, skilled and new alike! Help us make it better and extend the reach of Elixir to anyone that wants to learn. Below are a few ways to contribute."
-msgstr ""
+msgstr "Elixir School è costruito da contributori, esperti e principianti! Aiutaci a migliorarlo. Ecco alcuni modi per contribuire."
 
 #: lib/school_house_web/templates/page/index.html.heex:8
 #, elixir-format
 msgid "Elixir School is the premier destination for people looking to learn and master the Elixir programming language."
-msgstr ""
+msgstr "Elixir School è la destinazione di riferimento per chi desidera imparare e padroneggiare il linguaggio Elixir."
 
 #: lib/school_house_web/templates/page/why.html.heex:61
 #, elixir-format, elixir-autogen
 msgid "Elixir and the BEAM virtual machine pack a serious punch when it comes to features. With over 35 years of experience the Erlang runtime system has proven itself time and time again as solid platform for distributed, high-available systems."
-msgstr ""
+msgstr "Elixir e la macchina virtuale BEAM offrono funzionalità impressionanti. Con oltre 35 anni di esperienza, il sistema di runtime Erlang ha dimostrato di essere una piattaforma solida per sistemi distribuiti e ad alta disponibilità."
 
 #: lib/school_house_web/templates/page/why.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "Elixir is a wonderful language but don't take our word for it. Let's look at some of the reasons you and your organization should adopt Elixir."
-msgstr ""
+msgstr "Elixir è un linguaggio meraviglioso. Vediamo alcuni dei motivi per cui dovreste adottare Elixir."
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:14
 #, elixir-format, elixir-autogen
 msgid "Email address"
-msgstr ""
+msgstr "Indirizzo e-mail"
 
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:102
 #, elixir-format, elixir-autogen
 msgid "Embedded Elixir (EEx)"
-msgstr ""
+msgstr "Embedded Elixir (EEx)"
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:15
 #, elixir-format, elixir-autogen
 msgid "Enter your email"
-msgstr ""
+msgstr "Inserisci la tua e-mail"
 
 #: lib/school_house_web/templates/lesson/_storage.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Explore how interact with the BEAM's built in data storage, Redis, and others."
-msgstr ""
+msgstr "Scopri come interagire con l'archiviazione dati integrata della BEAM, Redis e altri."
 
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Extensible"
-msgstr ""
+msgstr "Estensibile"
 
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Fault Tolerant"
-msgstr ""
+msgstr "Tollerante ai guasti"
 
 #: lib/school_house_web/templates/page/index.html.heex:113
 #: lib/school_house_web/templates/page/why.html.heex:59
 #, elixir-format, elixir-autogen
 msgid "Feature Packed"
-msgstr ""
+msgstr "Ricco di funzionalità"
 
 #: lib/school_house_web/live/conferences_live.html.heex:17
 #, elixir-format, elixir-autogen
 msgid "Filter"
-msgstr ""
+msgstr "Filtra"
 
 #: lib/school_house_web/templates/page/why.html.heex:36
 #, elixir-format, elixir-autogen
 msgid "Focus on Functions"
-msgstr ""
+msgstr "Focus sulle funzioni"
 
 #: lib/school_house_web/templates/page/why.html.heex:97
 #, elixir-format, elixir-autogen
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: lib/school_house_web/templates/page/index.html.heex:99
 #: lib/school_house_web/templates/page/why.html.heex:13
 #, elixir-format, elixir-autogen
 msgid "Functional Programming"
-msgstr ""
+msgstr "Programmazione funzionale"
 
 #: lib/school_house_web/controllers/page_controller.ex:27
 #: lib/school_house_web/templates/layout/_footer.html.heex:63
@@ -567,59 +567,59 @@ msgstr ""
 #: lib/school_house_web/templates/page/get_involved.html.heex:5
 #, elixir-format, elixir-autogen
 msgid "Get Involved"
-msgstr ""
+msgstr "Partecipa"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:37
 #, elixir-format
 msgid "Getting Started"
-msgstr ""
+msgstr "Per iniziare"
 
 #: lib/school_house_web/templates/page/why.html.heex:109
 #, elixir-format, elixir-autogen
 msgid "Hashtags"
-msgstr ""
+msgstr "Hashtag"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:58
 #, elixir-format, elixir-autogen
 msgid "Have a topic related to Elixir that you are knowledgeable about and want to share? Write a blog post and it could be featured on the Elixir School post feed."
-msgstr ""
+msgstr "Hai un argomento legato a Elixir che conosci bene e vuoi condividere? Scrivi un articolo per il blog e potrebbe essere pubblicato nel feed di Elixir School."
 
 #: lib/school_house_web/controllers/page_controller.ex:7
 #, elixir-format, elixir-autogen
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: lib/school_house_web/templates/page/why.html.heex:24
 #, elixir-format, elixir-autogen
 msgid "Immutability"
-msgstr ""
+msgstr "Immutabilità"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:20
 #, elixir-format, elixir-autogen
 msgid "Improve the Website"
-msgstr ""
+msgstr "Migliorare il sito web"
 
 #: lib/school_house_web/templates/lesson/_ecto.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Interacting with data is a part of most applications. These lessons explore the Ecto library and how to leverage it for our database interactions."
-msgstr ""
+msgstr "L'interazione con i dati fa parte della maggior parte delle applicazioni. Queste lezioni esplorano la libreria Ecto e come sfruttarla per le interazioni con il database."
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:9
 #, elixir-format, elixir-autogen
 msgid "Join the Elixir School newsletter to keep up with the latest lessons, blog posts, and opportunities within the community."
-msgstr ""
+msgstr "Iscriviti alla newsletter di Elixir School per restare aggiornato sulle ultime lezioni, articoli e opportunità nella comunità."
 
 #: lib/school_house_web/templates/page/index.html.heex:67
 #, elixir-format, elixir-autogen
 msgid "Languages"
-msgstr ""
+msgstr "Lingue"
 
 #: lib/school_house_web/templates/page/index.html.heex:102
 #: lib/school_house_web/templates/page/index.html.heex:116
 #: lib/school_house_web/templates/page/index.html.heex:130
 #, elixir-format, elixir-autogen
 msgid "Learn More"
-msgstr ""
+msgstr "Scopri di più"
 
 #: lib/school_house_web/templates/layout/_header.html.heex:48
 #: lib/school_house_web/templates/layout/_lesson_menu.html.heex:3
@@ -633,201 +633,201 @@ msgstr ""
 #: lib/school_house_web/templates/lesson/_testing.html.heex:3
 #, elixir-format, elixir-autogen
 msgid "Lessons"
-msgstr ""
+msgstr "Lezioni"
 
 #: lib/school_house_web/templates/lesson/_basics.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Lessons covering the foundational topics. New to Elixir? This is the place to start."
-msgstr ""
+msgstr "Lezioni che coprono gli argomenti fondamentali. Nuovo a Elixir? Questo è il punto di partenza."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:40
 #, elixir-format, elixir-autogen
 msgid "Lessons on Elixir School are translated into 25 different languages! If there is a lesson missing a translation that you can provide, translate it and create a pull request."
-msgstr ""
+msgstr "Le lezioni di Elixir School sono tradotte in 25 lingue diverse! Se manca una traduzione che puoi fornire, traducila e crea una pull request."
 
 #: lib/school_house_web/live/conferences_live.html.heex:37
 #, elixir-format, elixir-autogen
 msgid "Location"
-msgstr ""
+msgstr "Luogo"
 
 #: lib/school_house_web/templates/page/why.html.heex:103
 #, elixir-format, elixir-autogen
 msgid "Meetups"
-msgstr ""
+msgstr "Meetup"
 
 #: lib/school_house_web/templates/page/why.html.heex:117
 #, elixir-format, elixir-autogen
 msgid "More to come..."
-msgstr ""
+msgstr "Altro in arrivo..."
 
 #: lib/school_house_web/live/conferences_live.html.heex:34
 #, elixir-format, elixir-autogen
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: lib/school_house_web/templates/lesson/_pagination.html.heex:14
 #, elixir-format, elixir-autogen
 msgid "Next Lesson"
-msgstr ""
+msgstr "Lezione successiva"
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:17
 #, elixir-format, elixir-autogen
 msgid "Notify me"
-msgstr ""
+msgstr "Avvisami"
 
 #: lib/school_house_web/templates/page/index.html.heex:195
 #, elixir-format
 msgid "On Hex"
-msgstr ""
+msgstr "Su Hex"
 
 #: lib/school_house_web/live/conferences_live.html.heex:20
 #, elixir-format, elixir-autogen
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: lib/school_house_web/templates/page/index.html.heex:195
 #, elixir-format
 msgid "Packages"
-msgstr ""
+msgstr "Pacchetti"
 
 #: lib/school_house_web/views/error_view.ex:7
 #, elixir-format, elixir-autogen
 msgid "Page not found"
-msgstr ""
+msgstr "Pagina non trovata"
 
 #: lib/school_house_web/templates/page/why.html.heex:64
 #, elixir-format, elixir-autogen
 msgid "Performant"
-msgstr ""
+msgstr "Performante"
 
 #: lib/school_house_web/controllers/page_controller.ex:11
 #: lib/school_house_web/templates/layout/_footer.html.heex:51
 #, elixir-format, elixir-autogen
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcast"
 
 #: lib/school_house_web/templates/page/why.html.heex:99
 #, elixir-format, elixir-autogen
 msgid "Prefer the forum format for your questions? No problem! Head over to"
-msgstr ""
+msgstr "Preferisci il formato forum per le tue domande? Nessun problema! Vai su"
 
 #: lib/school_house_web/templates/post/post.html.heex:12
 #, elixir-format
 msgid "Presents"
-msgstr ""
+msgstr "Presenta"
 
 #: lib/school_house_web/templates/lesson/_pagination.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Previous Lesson"
-msgstr ""
+msgstr "Lezione precedente"
 
 #: lib/school_house_web/controllers/page_controller.ex:15
 #: lib/school_house_web/templates/page/_newsletter.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Informativa sulla privacy"
 
 #: lib/school_house_web/templates/page/why.html.heex:38
 #, elixir-format, elixir-autogen
 msgid "Problems are decomposed into simple functions with an emphasis on no side-effects."
-msgstr ""
+msgstr "I problemi vengono scomposti in funzioni semplici con enfasi sull'assenza di effetti collaterali."
 
 #: lib/school_house_web/templates/lesson/_data_processing.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Processing large amount of data concurrently comes easy to Elixir. We'll explore how to leverage libraries to make this task even easier."
-msgstr ""
+msgstr "L'elaborazione concorrente di grandi quantità di dati è semplice con Elixir. Esploreremo come sfruttare le librerie per rendere questo compito più facile."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:112
 #, elixir-format
 msgid "Project"
-msgstr ""
+msgstr "Progetto"
 
 #: lib/school_house_web/templates/page/why.html.heex:86
 #, elixir-format, elixir-autogen
 msgid "Request your invite today!"
-msgstr ""
+msgstr "Richiedi il tuo invito oggi!"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:105
 #, elixir-format
 msgid "Reviews"
-msgstr ""
+msgstr "Recensioni"
 
 #: lib/school_house_web/templates/page/index.html.heex:154
 #: lib/school_house_web/templates/page/index.html.heex:165, lib/school_house_web/templates/page/index.html.heex:176
 #: lib/school_house_web/templates/page/index.html.heex:187, lib/school_house_web/templates/page/index.html.heex:198
 #, elixir-format
 msgid "See Them Here"
-msgstr ""
+msgstr "Scoprili qui"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:24
 #, elixir-format, elixir-autogen
 msgid "See something you think should be improved? Feel free to open an issue or create a pull request with the change."
-msgstr ""
+msgstr "Vedi qualcosa che andrebbe migliorato? Non esitare ad aprire una issue o creare una pull request."
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Sign up for our newsletter"
-msgstr ""
+msgstr "Iscriviti alla nostra newsletter"
 
 #: lib/school_house_web/templates/page/why.html.heex:47
 #, elixir-format
 msgid "Since functions are first class citizens in Functional Programming we're able to easily re-use our functions throughout our applications."
-msgstr ""
+msgstr "Poiché le funzioni sono cittadini di prima classe nella programmazione funzionale, possiamo facilmente riutilizzarle in tutta l'applicazione."
 
 #: lib/school_house_web/templates/page/why.html.heex:83
 #, elixir-format, elixir-autogen
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: lib/school_house_web/templates/page/index.html.heex:146
 #, elixir-format
 msgid "Still not convinced? Here are some numbers that demonstrate Elixir's growth and reach."
-msgstr ""
+msgstr "Ancora non convinto? Ecco alcuni numeri che dimostrano la crescita e la portata di Elixir."
 
 #: lib/school_house_web/templates/lesson/lesson.html.heex:11
 #, elixir-format, elixir-autogen
 msgid "Table of Contents"
-msgstr ""
+msgstr "Indice dei contenuti"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "Take a look at the"
-msgstr ""
+msgstr "Dai un'occhiata alle"
 
 #: lib/school_house_web/templates/lesson/_advanced.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Taking our knowledge to the next level, these lessons get cover the advanced topics of Elixir and the BEAM."
-msgstr ""
+msgstr "Portando le nostre conoscenze al livello successivo, queste lezioni coprono gli argomenti avanzati di Elixir e della BEAM."
 
 #: lib/school_house_web/templates/page/why.html.heex:85
 #, elixir-format, elixir-autogen
 msgid "The Elixir Slack is a popular destination for many in the community."
-msgstr ""
+msgstr "Lo Slack di Elixir è una destinazione popolare per molti membri della comunità."
 
 #: lib/school_house_web/templates/page/why.html.heex:79
 #, elixir-format, elixir-autogen
 msgid "The community and ecosystem that have grown up with the language remain one of the alluring parts of Elixir."
-msgstr ""
+msgstr "La comunità e l'ecosistema cresciuti insieme al linguaggio rimangono uno degli aspetti più attraenti di Elixir."
 
 #: lib/school_house_web/templates/lesson/_testing.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "The first step to writing fault tolerant and scalable code is writing bug free code. In these lessons we explore how best to test our Elixir code."
-msgstr ""
+msgstr "Il primo passo per scrivere codice tollerante ai guasti e scalabile è scrivere codice senza bug. In queste lezioni esploriamo come testare al meglio il codice Elixir."
 
 #: lib/school_house_web/views/error_view.ex:8
 #, elixir-format, elixir-autogen
 msgid "The page you're looking for seems to be missing."
-msgstr ""
+msgstr "La pagina che stai cercando sembra non essere disponibile."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:12
 #, elixir-format, elixir-autogen
 msgid "The premier destination for learning and mastering Elixir"
-msgstr ""
+msgstr "La destinazione di riferimento per imparare e padroneggiare Elixir"
 
 #: lib/school_house_web/templates/page/why.html.heex:50
 #, elixir-format, elixir-autogen
 msgid "The very nature of functional programming, small functions with no side-effects, makes testing easy."
-msgstr ""
+msgstr "La natura della programmazione funzionale, piccole funzioni senza effetti collaterali, rende i test facili."
 
 #: lib/school_house_web/templates/page/why.html.heex:39
 #, elixir-format, elixir-autogen
@@ -837,78 +837,78 @@ msgstr ""
 #: lib/school_house_web/templates/page/why.html.heex:30
 #, elixir-format
 msgid "This has the added benefit of improving support for concurrency and thus scalability of systems."
-msgstr ""
+msgstr "Questo ha il vantaggio aggiuntivo di migliorare il supporto per la concorrenza e la scalabilità dei sistemi."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:59
 #, elixir-format, elixir-autogen
 msgid "This is a great way to contribute and get visibility for your post! Steps for submitting a post are available on"
-msgstr ""
+msgstr "È un ottimo modo per contribuire! I passaggi per inviare un articolo sono disponibili su"
 
 #: lib/school_house_web/templates/page/index.html.heex:12
 #, elixir-format
 msgid "Through the hard work of volunteers Elixir School has been translated to many languages. Some of these translations include: "
-msgstr ""
+msgstr "Grazie al lavoro dei volontari, Elixir School è stato tradotto in molte lingue. Alcune traduzioni includono: "
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:101
 #, elixir-format
 msgid "Today I Learned (TIL)"
-msgstr ""
+msgstr "Oggi ho imparato (TIL)"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:38
 #, elixir-format, elixir-autogen
 msgid "Translate Lessons"
-msgstr ""
+msgstr "Tradurre le lezioni"
 
 #: lib/school_house_web/templates/error/translation_missing.html.heex:4
 #, elixir-format, elixir-autogen
 msgid "Translation unavailable"
-msgstr ""
+msgstr "Traduzione non disponibile"
 
 #: lib/school_house_web/templates/page/index.html.heex:173
 #, elixir-format
 msgid "Translations"
-msgstr ""
+msgstr "Traduzioni"
 
 #: lib/school_house_web/templates/page/index.html.heex:184
 #, elixir-format
 msgid "Using Elixir"
-msgstr ""
+msgstr "Utilizzano Elixir"
 
 #: lib/school_house_web/templates/page/index.html.heex:127
 #: lib/school_house_web/templates/page/why.html.heex:77
 #, elixir-format, elixir-autogen
 msgid "Vibrant Ecosystem"
-msgstr ""
+msgstr "Ecosistema dinamico"
 
 #: lib/school_house_web/templates/page/index.html.heex:268
 #, elixir-format
 msgid "Want to learn more?"
-msgstr ""
+msgstr "Vuoi saperne di più?"
 
 #: lib/school_house_web/templates/page/_newsletter.html.heex:21
 #, elixir-format, elixir-autogen
 msgid "We care about the protection of your data. Read our"
-msgstr ""
+msgstr "Ci prendiamo cura della protezione dei tuoi dati. Leggi la nostra"
 
 #: lib/school_house_web/templates/page/index.html.heex:270
 #, elixir-format
 msgid "We have articles spanning several topics"
-msgstr ""
+msgstr "Abbiamo articoli che coprono diversi argomenti"
 
 #: lib/school_house_web/templates/page/index.html.heex:34
 #, elixir-format
 msgid "We welcome and encourage you to join us in continuing to make Elixir School great by getting involved at elixirschool/elixirschool!"
-msgstr ""
+msgstr "Unisciti a noi per continuare a rendere Elixir School ancora migliore partecipando su elixirschool/elixirschool!"
 
 #: lib/school_house_web/templates/error/translation_missing.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "We're sorry, the resource you're looking for has not been translated yet."
-msgstr ""
+msgstr "Siamo spiacenti, la risorsa che stai cercando non è ancora stata tradotta."
 
 #: lib/school_house_web/templates/page/index.html.heex:5
 #, elixir-format
 msgid "Welcome to Elixir School!"
-msgstr ""
+msgstr "Benvenuto a Elixir School!"
 
 #: lib/school_house_web/templates/page/index.html.heex:9
 #, elixir-format
@@ -918,215 +918,215 @@ msgstr ""
 #: lib/school_house_web/templates/page/why.html.heex:15
 #, elixir-format, elixir-autogen
 msgid "While its roots are in lambda calculus, functional programming can be fun, easy, and approachable for everyone! By focusing on breaking problems down into simple, side-effect free, functions we can ensure fewer bugs, better test coverage, while incrementally building our solutions through the composition of well tested functions."
-msgstr ""
+msgstr "Anche se le sue radici sono nel calcolo lambda, la programmazione funzionale può essere divertente, semplice e accessibile a tutti!"
 
 #: lib/school_house_web/controllers/page_controller.ex:23
 #, elixir-format, elixir-autogen
 msgid "Why Choose Elixir?"
-msgstr ""
+msgstr "Perché scegliere Elixir?"
 
 #: lib/school_house_web/templates/page/index.html.heex:173
 #, elixir-format
 msgid "With Lesson"
-msgstr ""
+msgstr "Con lezione"
 
 #: lib/school_house_web/templates/page/index.html.heex:112
 #, elixir-format
 msgid "With dozens of conferences, hundreds of meetups, Slack, IRC, Discord, and multiple active hashtags."
-msgstr ""
+msgstr "Con decine di conferenze, centinaia di meetup, Slack, IRC, Discord e numerosi hashtag attivi."
 
 #: lib/school_house_web/templates/page/why.html.heex:105
 #, elixir-format, elixir-autogen
 msgid "With over 150 meetups, you're sure to find local Elixir enthusiasts. Check out"
-msgstr ""
+msgstr "Con oltre 150 meetup, troverai sicuramente appassionati di Elixir nella tua zona. Consulta"
 
 #: lib/school_house_web/templates/page/why.html.heex:111
 #, elixir-format, elixir-autogen
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:42
 #, elixir-format, elixir-autogen
 msgid "are available on"
-msgstr ""
+msgstr "sono disponibili su"
 
 #: lib/school_house_web/templates/page/why.html.heex:105
 #, elixir-format, elixir-autogen
 msgid "for more."
-msgstr ""
+msgstr "per saperne di più."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "issues"
-msgstr ""
+msgstr "issue"
 
 #: lib/school_house_web/templates/page/why.html.heex:111
 #, elixir-format, elixir-autogen
 msgid "on Twitter."
-msgstr ""
+msgstr "su Twitter."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:23
 #, elixir-format, elixir-autogen
 msgid "on the repository to find a task that interests you. Create a pull request when your change is ready and after review it will be merged into the codebase!"
-msgstr ""
+msgstr "sul repository per trovare un'attività che ti interessa. Crea una pull request quando la modifica è pronta e dopo la revisione verrà integrata nel codice!"
 
 #: lib/school_house_web/templates/page/why.html.heex:99
 #, elixir-format, elixir-autogen
 msgid "to join the conversation."
-msgstr ""
+msgstr "per partecipare alla conversazione."
 
 #: lib/school_house_web/templates/post/index.html.heex:6
 #, elixir-format, elixir-autogen
 msgid "Recent Posts"
-msgstr ""
+msgstr "Articoli recenti"
 
 #: lib/school_house_web/templates/page/index.html.heex:162
 #, elixir-format
 msgid "(& Counting)"
-msgstr ""
+msgstr "(e non finisce qui)"
 
 #: lib/school_house_web/templates/page/index.html.heex:273
 #, elixir-format
 msgid "Visit the Blog"
-msgstr ""
+msgstr "Visita il blog"
 
 #: lib/school_house_web/templates/error/translation_missing.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "If you speak that language, you can help translate"
-msgstr ""
+msgstr "Se parli quella lingua, puoi aiutare a tradurre"
 
 #: lib/school_house_web/templates/error/translation_missing.html.heex:7
 #, elixir-format, elixir-autogen
 msgid "this page"
-msgstr ""
+msgstr "questa pagina"
 
 #: lib/school_house_web/templates/page/index.html.heex:147
 #, elixir-autogen, elixir-format
 msgid "Begin with Basics"
-msgstr ""
+msgstr "Inizia dalle basi"
 
 #: lib/school_house_web/templates/page/index.html.heex:100
 #, elixir-autogen, elixir-format
 msgid "Break problems into simple, side-effect free functions. Better test coverage, fewer bugs, and solutions built from well-tested compositions."
-msgstr ""
+msgstr "Scomponi i problemi in funzioni semplici senza effetti collaterali. Migliore copertura dei test, meno bug e soluzioni costruite da composizioni ben testate."
 
 #: lib/school_house_web/templates/page/index.html.heex:149
 #, elixir-autogen, elixir-format
 msgid "Browse All Posts"
-msgstr ""
+msgstr "Vedi tutti gli articoli"
 
 #: lib/school_house_web/templates/page/index.html.heex:88
 #, elixir-autogen, elixir-format
 msgid "Built for the Modern World"
-msgstr ""
+msgstr "Costruito per il mondo moderno"
 
 #: lib/school_house_web/templates/page/index.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Built on the Erlang VM (BEAM), battle-tested for 30+ years. Get lightweight processes, fault tolerance, and hot code reloading out of the box."
-msgstr ""
+msgstr "Costruito sulla VM Erlang (BEAM), collaudato da oltre 30 anni. Processi leggeri, tolleranza ai guasti e hot code reloading inclusi."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:60
 #: lib/school_house_web/templates/page/get_involved.html.heex:4
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Community"
-msgstr ""
+msgstr "Comunità"
 
 #: lib/school_house_web/templates/page/index.html.heex:75
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Companies Using Elixir"
-msgstr ""
+msgstr "Aziende che utilizzano Elixir"
 
 #: lib/school_house_web/templates/page/index.html.heex:128
 #, elixir-autogen, elixir-format
 msgid "Dozens of conferences, hundreds of meetups, an active community across Slack, Discord, and the forum. Plus 13,000+ packages on Hex."
-msgstr ""
+msgstr "Decine di conferenze, centinaia di meetup, una comunità attiva su Slack, Discord e il forum. Oltre 13.000 pacchetti su Hex."
 
 #: lib/school_house_web/templates/page/index.html.heex:13
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Elixir"
-msgstr ""
+msgstr "Elixir"
 
 #: lib/school_house_web/templates/post/post.html.heex:3
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Elixir School Presents"
-msgstr ""
+msgstr "Elixir School presenta"
 
 #: lib/school_house_web/live/conferences_live.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Events"
-msgstr ""
+msgstr "Eventi"
 
 #: lib/school_house_web/templates/page/why.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Explore"
-msgstr ""
+msgstr "Esplora"
 
 #: lib/school_house_web/templates/post/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "From the Blog"
-msgstr ""
+msgstr "Dal blog"
 
 #: lib/school_house_web/templates/page/index.html.heex:71
 #, elixir-autogen, elixir-format
 msgid "Hex Packages"
-msgstr ""
+msgstr "Pacchetti Hex"
 
 #: lib/school_house_web/templates/page/index.html.heex:144
 #, elixir-autogen, elixir-format
 msgid "Jump into your first lesson and discover why developers love Elixir. Free, open-source, and community-driven."
-msgstr ""
+msgstr "Inizia la tua prima lezione e scopri perché gli sviluppatori amano Elixir. Gratuito, open source e guidato dalla comunità."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:33
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Learn"
-msgstr ""
+msgstr "Impara"
 
 #: lib/school_house_web/templates/page/index.html.heex:12
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Learn & Master"
-msgstr ""
+msgstr "Impara e padroneggia"
 
 #: lib/school_house_web/templates/page/index.html.heex:79
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Lessons & Guides"
-msgstr ""
+msgstr "Lezioni e guide"
 
 #: lib/school_house_web/templates/page/podcasts.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Listen & Learn"
-msgstr ""
+msgstr "Ascolta e impara"
 
 #: lib/school_house_web/templates/post/post.html.heex:6
 #, elixir-autogen, elixir-format
 msgid "Posted"
-msgstr ""
+msgstr "Pubblicato"
 
 #: lib/school_house_web/templates/page/index.html.heex:143
 #, elixir-autogen, elixir-format
 msgid "Ready to Get Started?"
-msgstr ""
+msgstr "Pronto per iniziare?"
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:47
 #, elixir-autogen, elixir-format
 msgid "Resources"
-msgstr ""
+msgstr "Risorse"
 
 #: lib/school_house_web/templates/page/index.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Start Learning"
-msgstr ""
+msgstr "Inizia a imparare"
 
 #: lib/school_house_web/templates/page/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "The premier destination for learning the Elixir programming language. From first steps to advanced OTP patterns — free, community-driven lessons that grow with you."
-msgstr ""
+msgstr "La destinazione di riferimento per imparare Elixir. Dai primi passi ai pattern OTP avanzati — lezioni gratuite, guidate dalla comunità, che crescono con te."
 
 #: lib/school_house_web/templates/layout/_dark_mode_toggle.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "Attiva/disattiva modalità scura"
 
 #: lib/school_house_web/templates/page/index.html.heex:9
 #, elixir-autogen, elixir-format
 msgid "Translated in 25+ Languages"
-msgstr ""
+msgstr "Tradotto in oltre 25 lingue"
