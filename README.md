@@ -8,8 +8,8 @@ Lesson and blog content lives in the [elixirschool/elixirschool](https://github.
 
 ## Prerequisites
 
-- Elixir ~> 1.18
-- Erlang/OTP ~> 27
+- Elixir ~> 1.13
+- Erlang/OTP compatible with your Elixir version
 - Node.js (for asset compilation)
 
 ## Development

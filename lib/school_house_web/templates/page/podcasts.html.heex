@@ -11,7 +11,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
       <%= for podcast <- @podcasts do %>
         <div class="group bg-surface-card border border-border-subtle rounded-design-lg overflow-hidden transition-all duration-300 hover:border-brand-300 hover:shadow-design-lg hover:-translate-y-1">
-          <a href={podcast.website} target="_blank" class="block">
+          <a href={podcast.website} target="_blank" rel="noopener noreferrer" class="block">
             <div class="aspect-w-3 aspect-h-2 bg-surface-secondary">
               <img class="object-scale-down" src={Routes.static_path(@conn, "/images/#{podcast.logo}")} alt={"#{podcast.name} logo"}>
             </div>

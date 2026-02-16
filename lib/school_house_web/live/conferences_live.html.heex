@@ -45,7 +45,7 @@
           <%= for conference <- @conferences do %>
             <tr class="hover:bg-surface-secondary/50 transition-colors">
               <td class="px-6 py-4">
-                <a class="font-medium text-brand-500 hover:text-brand-600 transition-colors" href={conference.link} target="_blank" rel="noopener"><%= conference.name %></a>
+                <a class="font-medium text-brand-500 hover:text-brand-600 transition-colors" href={conference.link} target="_blank" rel="noopener noreferrer"><%= conference.name %></a>
               </td>
               <td class="px-6 py-4">
                 <p class="text-sm text-on-surface-secondary"><%= conference.location %></p>
