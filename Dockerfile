@@ -67,10 +67,7 @@ RUN cd assets && npm ci
 
 # copy content submodule and extract images
 COPY content content
-RUN rm -rf assets/static/images && cp -r content/images assets/static/images \
-    && cp assets/brand/elixir-school-icon.png assets/static/images/ \
-    && cp assets/brand/elixir-school-logo.png assets/static/images/ \
-    && cp assets/brand/favicons/* assets/static/images/favicons/
+RUN rm -rf assets/static/images && cp -r content/images assets/static/images
 
 # generate rss and sitemap static files
 RUN mix school_house.gen.rss ${DEPLOY_DOMAIN}
