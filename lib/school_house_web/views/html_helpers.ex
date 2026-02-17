@@ -32,7 +32,7 @@ defmodule SchoolHouseWeb.HtmlHelpers do
         conn,
         section,
         name,
-        class \\ "block text-on-surface-secondary hover:text-brand-500 hover:bg-surface-secondary transition-colors",
+        class \\ "inline text-on-surface-secondary hover:text-brand-500 transition-colors",
         do: contents
       ) do
     {destination, additional_classes} =
@@ -64,7 +64,7 @@ defmodule SchoolHouseWeb.HtmlHelpers do
         ),
         name |> Lessons.coming_soon?() |> maybe_coming_soon_badge()
       ],
-      class: "flex flex-wrap"
+      class: "contents"
     )
   end
 
