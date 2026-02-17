@@ -50,6 +50,7 @@
           <li><%= link(gettext("Blog"), to: Routes.post_path(@conn, :index), class: "text-sm text-on-surface-secondary hover:text-brand-500 transition-colors") %></li>
           <li><%= link(gettext("Podcasts"), to: Routes.page_path(@conn, :podcasts, current_locale()), class: "text-sm text-on-surface-secondary hover:text-brand-500 transition-colors") %></li>
           <li><%= link(gettext("Conferences"), to: Routes.live_path(@conn, SchoolHouseWeb.ConferencesLive, current_locale()), class: "text-sm text-on-surface-secondary hover:text-brand-500 transition-colors") %></li>
+          <li><%= link(gettext("Ecosystem"), to: Routes.page_path(@conn, :ecosystem, current_locale()), class: "text-sm text-on-surface-secondary hover:text-brand-500 transition-colors") %></li>
           <li><%= link(gettext("Why Elixir?"), to: Routes.page_path(@conn, :why, current_locale()), class: "text-sm text-on-surface-secondary hover:text-brand-500 transition-colors") %></li>
         </ul>
       </div>

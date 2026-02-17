@@ -12,6 +12,9 @@
         <%= link(gettext("Why Elixir?"), to: Routes.page_path(@conn, :why, current_locale()), class: "text-on-surface-secondary text-sm font-medium no-underline hover:text-brand-500 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-brand-500 after:rounded-sm after:transition-all hover:after:w-full") %>
       </li>
       <li>
+        <%= link(gettext("Ecosystem"), to: Routes.page_path(@conn, :ecosystem, current_locale()), class: "text-on-surface-secondary text-sm font-medium no-underline hover:text-brand-500 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-brand-500 after:rounded-sm after:transition-all hover:after:w-full") %>
+      </li>
+      <li>
         <%= render("_lesson_menu.html", conn: @conn) %>
       </li>
       <li>
@@ -43,6 +46,9 @@
     <ul class="flex flex-col py-2">
       <li>
         <%= link(gettext("Why Elixir?"), to: Routes.page_path(@conn, :why, current_locale()), class: "block py-3 px-4 text-on-surface-secondary font-medium hover:text-brand-500 hover:bg-surface-secondary") %>
+      </li>
+      <li>
+        <%= link(gettext("Ecosystem"), to: Routes.page_path(@conn, :ecosystem, current_locale()), class: "block py-3 px-4 text-on-surface-secondary font-medium hover:text-brand-500 hover:bg-surface-secondary") %>
       </li>
       <li>
         <%= link(gettext("Lessons"), to: Routes.lesson_path(@conn, :index, current_locale(), :basics), class: "block py-3 px-4 text-on-surface-secondary font-medium hover:text-brand-500 hover:bg-surface-secondary") %>

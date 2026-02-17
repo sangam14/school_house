@@ -23,6 +23,10 @@ defmodule SchoolHouseWeb.PageController do
     render(conn, "why.html", page_title: gettext("Why Choose Elixir?"))
   end
 
+  def ecosystem(conn, _params) do
+    render(conn, "ecosystem.html", page_title: gettext("Ecosystem"))
+  end
+
   def get_involved(conn, _params) do
     render(conn, "get_involved.html", page_title: gettext("Get Involved"))
   end
