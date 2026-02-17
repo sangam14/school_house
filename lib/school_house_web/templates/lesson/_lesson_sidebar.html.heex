@@ -1,0 +1,12 @@
+<%= for {section, lessons} <- @all_sections do %>
+  <div class="sidebar-section">
+    <div class="sidebar-section-title"><%= section_display_name(section) %></div>
+    <%= for lesson <- lessons do %>
+      <% active = lesson.section == @lesson.section and lesson.name == @lesson.name %>
+      <%= link(to: Routes.lesson_path(@conn, :lesson, current_locale(), lesson.section, lesson.name), class: "sidebar-link#{if active, do: " active", else: ""}") do %>
+        <span class="check"><%= if active, do: "●", else: "" %></span>
+        <%= lesson.title %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

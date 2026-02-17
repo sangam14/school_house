@@ -42,6 +42,8 @@ defmodule SchoolHouse.Lessons do
 
   def coming_soon?(name), do: name in @future_lessons
 
+  def filtered_lessons, do: @filtered_lessons
+
   defp locale_lessons(locale) do
     Module.concat(__MODULE__, String.capitalize(locale))
   end

@@ -1,29 +1,51 @@
-<section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-  <div class="mb-8">
-    <h1 class="font-heading text-4xl sm:text-5xl font-extrabold tracking-tight text-on-surface leading-tight mb-4"><%= @lesson.title %></h1>
-  </div>
+<div class="lesson-layout">
+  <!-- Left Sidebar -->
+  <aside class="lesson-sidebar">
+    <%= render("_lesson_sidebar.html", conn: @conn, lesson: @lesson, all_sections: @all_sections) %>
+  </aside>
 
-  <%= if @lesson.excerpt do %>
-    <div class="bg-surface-secondary border border-border-subtle rounded-design-md p-5 mb-8 text-on-surface-secondary excerpt-box"><%= raw @lesson.excerpt %></div>
-  <% end %>
+  <!-- Main Content -->
+  <article class="lesson-content">
+    <nav class="lesson-breadcrumb">
+      <%= link(gettext("Lessons"), to: Routes.lesson_path(@conn, :index, current_locale(), @lesson.section), class: "") %>
+      <span class="sep">/</span>
+      <%= link(section_display_name(@lesson.section), to: Routes.lesson_path(@conn, :index, current_locale(), @lesson.section), class: "") %>
+      <span class="sep">/</span>
+      <span class="current"><%= @lesson.title %></span>
+    </nav>
 
-  <div class="mb-10">
-    <h2 class="font-heading text-2xl font-bold text-on-surface border-b-2 border-brand-500 pb-2 inline-block mb-4"><%= gettext("Table of Contents") %></h2>
-    <div class="prose dark:prose-dark text-on-surface-secondary">
-      <%= raw @lesson.table_of_contents %>
+    <h1 class="lesson-title"><%= @lesson.title %></h1>
+
+    <%= if @lesson.excerpt do %>
+      <div class="bg-surface-secondary border border-border-subtle rounded-design-md p-5 mb-8 text-on-surface-secondary excerpt-box"><%= raw @lesson.excerpt %></div>
+    <% end %>
+
+    <div class="lesson-prose prose dark:prose-dark max-w-none">
+      <%= raw @lesson.body %>
     </div>
-  </div>
 
-  <div class="prose dark:prose-dark max-w-none">
-    <%= raw @lesson.body %>
-  </div>
+    <div class="lesson-nav">
+      <div>
+        <%= if @lesson.previous do %>
+          <%= link(to: Routes.lesson_path(@conn, :lesson, current_locale(), @lesson.previous.section, @lesson.previous.name), class: "lesson-nav-btn prev") do %>
+            <span class="label"><%= gettext("Previous Lesson") %></span>
+            <span class="title">&larr; <%= @lesson.previous.title %></span>
+          <% end %>
+        <% end %>
+      </div>
+      <div>
+        <%= if @lesson.next do %>
+          <%= link(to: Routes.lesson_path(@conn, :lesson, current_locale(), @lesson.next.section, @lesson.next.name), class: "lesson-nav-btn next") do %>
+            <span class="label"><%= gettext("Next Lesson") %></span>
+            <span class="title"><%= @lesson.next.title %> &rarr;</span>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </article>
 
-  <blockquote class="mt-12 p-5 bg-surface-secondary border border-border-subtle rounded-design-md text-on-surface-secondary">
-    <%= gettext("Caught a mistake or want to contribute to the lesson?") %>
-    <a href={"https://github.com/elixirschool/elixirschool/edit/main/lessons/#{@lesson.locale}/#{@lesson.section}/#{@lesson.name}.md"} target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-500 hover:text-brand-600 transition-colors">
-      <%= gettext("Edit this lesson on GitHub!") %>
-    </a>
-  </blockquote>
-</section>
-
-<%= render("_pagination.html", conn: @conn, next: @lesson.next, previous: @lesson.previous) %>
+  <!-- Right Sidebar (TOC) -->
+  <aside class="toc-sidebar">
+    <%= render("_toc_sidebar.html", conn: @conn, lesson: @lesson) %>
+  </aside>
+</div>

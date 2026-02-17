@@ -13,8 +13,20 @@ defmodule SchoolHouseWeb.LessonController do
   end
 
   def lesson(conn, %{"name" => name, "section" => section}) do
-    with {:ok, lesson} <- Lessons.get(section, name, Gettext.get_locale(SchoolHouseWeb.Gettext)) do
-      render(conn, "lesson.html", page_title: lesson.title, lesson: lesson)
+    locale = Gettext.get_locale(SchoolHouseWeb.Gettext)
+
+    with {:ok, lesson} <- Lessons.get(section, name, locale) do
+      all_sections =
+        Lessons.filtered_lessons()
+        |> Enum.map(fn {sec, _names} ->
+          {sec, Lessons.list(to_string(sec), locale)}
+        end)
+
+      render(conn, "lesson.html",
+        page_title: lesson.title,
+        lesson: lesson,
+        all_sections: all_sections
+      )
     end
   end
 end
