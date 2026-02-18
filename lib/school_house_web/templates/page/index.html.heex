@@ -134,6 +134,125 @@
   </div>
 </section>
 
+<!-- See Elixir in Action -->
+<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-14">
+      <div class="font-mono text-xs font-semibold uppercase tracking-[0.12em] text-brand-500 mb-3"><%= gettext("See It in Action") %></div>
+      <h2 class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Elegant, Expressive Code") %></h2>
+      <p class="text-lg text-on-surface-secondary max-w-xl mx-auto"><%= gettext("From pattern matching to real-time web apps — see why developers fall in love with Elixir.") %></p>
+    </div>
+
+    <!-- Block 1: Pattern Matching (text left, code right) -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-10">
+      <div>
+        <h3 class="font-heading text-xl sm:text-2xl font-bold text-on-surface mb-3"><%= gettext("Pattern Matching") %></h3>
+        <p class="text-on-surface-secondary leading-relaxed">
+          <%= gettext("Write expressive, self-documenting code. Instead of if/else chains, each function clause declares exactly what data shape it handles — making your intent crystal clear.") %>
+        </p>
+      </div>
+      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+        <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
+          <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#28c840]"></span>
+          <span class="ml-3 font-mono text-xs text-white/30">patterns.ex</span>
+        </div>
+        <div class="p-6 font-mono text-sm leading-[1.8] text-[#e0dce8] overflow-x-auto whitespace-pre">
+<span class="text-[#c084fc] font-medium">defmodule</span> <span class="text-[#fbbf24]">Greeter</span> <span class="text-[#c084fc] font-medium">do</span>
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">hello</span>(%{name: name, lang: <span class="text-[#86efac]">"es"</span>}),
+    do: <span class="text-[#86efac]">"¡Hola, #{</span>name<span class="text-[#86efac]">}!"</span>
+
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">hello</span>(%{name: name, lang: <span class="text-[#86efac]">"ja"</span>}),
+    do: <span class="text-[#86efac]">"こんにちは、#{</span>name<span class="text-[#86efac]">}！"</span>
+
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">hello</span>(%{name: name}),
+    do: <span class="text-[#86efac]">"Hello, #{</span>name<span class="text-[#86efac]">}!"</span>
+<span class="text-[#c084fc] font-medium">end</span>
+
+<span class="text-[#fbbf24]">Greeter</span>.<span class="text-[#67e8f9]">hello</span>(%{name: <span class="text-[#86efac]">"José"</span>, lang: <span class="text-[#86efac]">"es"</span>})
+<span class="text-[#5c5470] italic"># => "¡Hola, José!"</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 2: Concurrency (code left, text right) -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-10">
+      <div class="lg:order-2">
+        <h3 class="font-heading text-xl sm:text-2xl font-bold text-on-surface mb-3"><%= gettext("Lightweight Concurrency") %></h3>
+        <p class="text-on-surface-secondary leading-relaxed">
+          <%= gettext("Spawn millions of isolated processes on a single machine — each communicating through message passing. This is the foundation of fault-tolerant, concurrent systems powered by the BEAM virtual machine.") %>
+        </p>
+      </div>
+      <div class="lg:order-1 bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+        <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
+          <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#28c840]"></span>
+          <span class="ml-3 font-mono text-xs text-white/30">processes.ex</span>
+        </div>
+        <div class="p-6 font-mono text-sm leading-[1.8] text-[#e0dce8] overflow-x-auto whitespace-pre">
+parent = <span class="text-[#67e8f9]">self</span>()
+
+child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] font-medium">fn</span> -&gt;
+  <span class="text-[#c084fc] font-medium">receive</span> <span class="text-[#c084fc] font-medium">do</span>
+    {:greet, name} -&gt;
+      <span class="text-[#67e8f9]">send</span>(parent, {:ok, <span class="text-[#86efac]">"Hello, #{</span>name<span class="text-[#86efac]">}!"</span>})
+  <span class="text-[#c084fc] font-medium">end</span>
+<span class="text-[#c084fc] font-medium">end</span>)
+
+<span class="text-[#67e8f9]">send</span>(child, {:greet, <span class="text-[#86efac]">"World"</span>})
+
+<span class="text-[#c084fc] font-medium">receive</span> <span class="text-[#c084fc] font-medium">do</span>
+  {:ok, message} -&gt; <span class="text-[#fbbf24]">IO</span>.<span class="text-[#67e8f9]">puts</span>(message)
+<span class="text-[#c084fc] font-medium">end</span>
+<span class="text-[#5c5470] italic"># => "Hello, World!"</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 3: Phoenix LiveView (text left, code right) -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="font-heading text-xl sm:text-2xl font-bold text-on-surface mb-3"><%= gettext("Phoenix LiveView") %></h3>
+        <p class="text-on-surface-secondary leading-relaxed">
+          <%= gettext("Rich, real-time user experiences with server-rendered HTML. No JavaScript required — just write Elixir and let LiveView handle the rest.") %>
+        </p>
+      </div>
+      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+        <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
+          <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
+          <span class="w-3 h-3 rounded-full bg-[#28c840]"></span>
+          <span class="ml-3 font-mono text-xs text-white/30">search_live.ex</span>
+        </div>
+        <div class="p-6 font-mono text-sm leading-[1.8] text-[#e0dce8] overflow-x-auto whitespace-pre">
+<span class="text-[#c084fc] font-medium">defmodule</span> <span class="text-[#fbbf24]">MyAppWeb.SearchLive</span> <span class="text-[#c084fc] font-medium">do</span>
+  <span class="text-[#c084fc] font-medium">use</span> <span class="text-[#fbbf24]">Phoenix.LiveView</span>
+
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">mount</span>(_params, _session, socket) <span class="text-[#c084fc] font-medium">do</span>
+    {:ok, <span class="text-[#67e8f9]">assign</span>(socket, query: <span class="text-[#86efac]">""</span>, results: [])}
+  <span class="text-[#c084fc] font-medium">end</span>
+
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">handle_event</span>(<span class="text-[#86efac]">"search"</span>, %{<span class="text-[#86efac]">"q"</span> =&gt; q}, socket) <span class="text-[#c084fc] font-medium">do</span>
+    {:noreply, <span class="text-[#67e8f9]">assign</span>(socket, results: <span class="text-[#fbbf24]">App</span>.<span class="text-[#67e8f9]">search</span>(q))}
+  <span class="text-[#c084fc] font-medium">end</span>
+
+  <span class="text-[#c084fc] font-medium">def</span> <span class="text-[#67e8f9]">render</span>(assigns) <span class="text-[#c084fc] font-medium">do</span>
+    <span class="text-[#67e8f9]">~H</span><span class="text-[#86efac]">"""
+    &lt;input phx-change="search" value={@query} /&gt;
+    &lt;ul&gt;
+      &lt;li :for={item &lt;- @results}&gt;{item.name}&lt;/li&gt;
+    &lt;/ul&gt;
+    """</span>
+  <span class="text-[#c084fc] font-medium">end</span>
+<span class="text-[#c084fc] font-medium">end</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Ecosystem Highlights -->
 <section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">
   <div class="max-w-7xl mx-auto">
@@ -192,6 +311,24 @@
 
 <!-- Blog Posts -->
 <%= render(SchoolHouseWeb.PostView, "index.html", conn: @conn, posts: @posts) %>
+
+<!-- Continue Learning (client-side, shown only if user has visited a lesson) -->
+<div x-data x-show="$store.progress && $store.progress.lastVisited" x-cloak
+     data-locale={current_locale()}
+     class="max-w-3xl mx-auto px-4 sm:px-6 -mb-8 mt-12 relative z-10">
+  <div class="bg-surface-card border border-brand-200 rounded-design-lg p-5 sm:p-6 flex items-center justify-between gap-4 shadow-design-md">
+    <div class="min-w-0">
+      <div class="text-xs font-semibold uppercase tracking-wider text-brand-500 mb-1"><%= gettext("Continue Learning") %></div>
+      <div class="font-heading text-base sm:text-lg font-bold text-on-surface truncate"
+           x-text="$store.progress.lastVisited?.name?.replaceAll('_', ' ')">
+      </div>
+    </div>
+    <a x-bind:href="'/' + $el.closest('[data-locale]').dataset.locale + '/lessons/' + $store.progress.lastVisited?.section + '/' + $store.progress.lastVisited?.name"
+       class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 text-white rounded-full font-semibold text-sm hover:bg-brand-700 transition-all flex-shrink-0">
+      <%= gettext("Continue") %> &rarr;
+    </a>
+  </div>
+</div>
 
 <!-- CTA Section -->
 <section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">

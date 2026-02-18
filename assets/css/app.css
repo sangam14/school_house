@@ -342,6 +342,39 @@ body, body * {
   background: var(--purple-500);
   color: white;
 }
+/* Completed lesson indicator */
+.sidebar-link .check.is-done {
+  border-color: var(--accent-green);
+  background: var(--accent-green);
+  color: white;
+}
+.sidebar-link .check.is-done::after {
+  content: "\2713";
+  font-size: 0.55rem;
+  font-weight: 700;
+  line-height: 1;
+}
+/* Active always overrides completed */
+.sidebar-link.active .check.is-done {
+  border-color: var(--purple-500);
+  background: var(--purple-500);
+}
+.sidebar-link.active .check.is-done::after {
+  content: none;
+}
+/* Section progress counter */
+.sidebar-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-section-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
 
 /* Main Lesson Content */
 .lesson-content {
@@ -497,6 +530,25 @@ body, body * {
 .toc-action-btn:hover {
   background: var(--bg-secondary);
   color: var(--text-primary);
+}
+
+/* Lesson completion toast */
+.lesson-complete-toast {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-green);
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+[data-theme="dark"] .lesson-complete-toast {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.25);
 }
 
 /* --------------------------------------------------
