@@ -6,6 +6,11 @@ defmodule SchoolHouse.Content.Lesson do
   @headers_regex ~r/<(h\d)>(["\p{L}\p{M}\s?!\.\/\d]+)(<\/\1>)/iu
   @enforce_keys [:body, :section, :locale, :name, :title, :version]
 
+  # Version values for replacing legacy Jekyll {{ site.* }} template variables
+  @elixir_version System.version()
+  @otp_release to_string(:erlang.system_info(:otp_release))
+  @erts_version to_string(:erlang.system_info(:version))
+
   defstruct [
     :body,
     :excerpt,
@@ -28,7 +33,7 @@ defmodule SchoolHouse.Content.Lesson do
       |> Enum.take(-3)
 
     filename_attrs = [
-      body: add_table_of_contents_links(body),
+      body: body |> replace_site_variables() |> add_table_of_contents_links(),
       locale: locale,
       excerpt: convert_meta(attrs.excerpt, "excerpt"),
       name: String.to_atom(name),
@@ -38,6 +43,13 @@ defmodule SchoolHouse.Content.Lesson do
     ]
 
     struct!(__MODULE__, Map.to_list(attrs) ++ filename_attrs)
+  end
+
+  defp replace_site_variables(body) do
+    body
+    |> String.replace("{{ site.erlang.OTP }}", @otp_release)
+    |> String.replace("{{ site.erlang.erts }}", @erts_version)
+    |> String.replace("{{ site.elixir.version }}", @elixir_version)
   end
 
   defp add_table_of_contents_links(body) do
