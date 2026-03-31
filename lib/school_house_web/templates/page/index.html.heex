@@ -309,6 +309,9 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
   </div>
 </section>
 
+<!-- Sponsors Bar (only shown when featured sponsors exist) -->
+<%= render("_sponsors_bar.html", conn: @conn, featured_sponsors: @featured_sponsors) %>
+
 <!-- Blog Posts -->
 <%= render(SchoolHouseWeb.PostView, "index.html", conn: @conn, posts: @posts) %>
 
