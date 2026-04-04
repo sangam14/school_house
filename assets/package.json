@@ -18,6 +18,9 @@
         "tailwindcss": "^3.4.0",
         "topbar": "^2.0.2"
     },
+    "overrides": {
+        "minimatch": "^3.1.4"
+    },
     "dependencies": {
         "alpinejs": "^3.14.0",
         "@tailwindcss/aspect-ratio": "^0.4.2",

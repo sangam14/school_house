@@ -31,8 +31,7 @@ defmodule SchoolHouse.Sponsors do
 
   @doc "Returns sponsors at $100/month or higher tiers (homepage-worthy)."
   def featured do
-    list()
-    |> Enum.filter(fn s -> s.monthly_price >= 100 end)
+    Enum.filter(list(), fn s -> s.monthly_price >= 100 end)
   end
 
   @doc "Returns true if there are any active sponsors."
@@ -186,11 +185,36 @@ defmodule SchoolHouse.Sponsors do
 
   defp default_tiers do
     [
-      %{name: "$5 a month", monthly_price: 5, one_time: false, description: "Help keep the lights on and lessons flowing for developers around the world."},
-      %{name: "$25 a month", monthly_price: 25, one_time: false, description: "For developers and teams who got their start with Elixir School."},
-      %{name: "$100 a month", monthly_price: 100, one_time: false, description: "For companies that use Elixir in production and want to invest in learning resources."},
-      %{name: "$250 a month", monthly_price: 250, one_time: false, description: "For organizations serious about investing in Elixir education and ecosystem growth."},
-      %{name: "$500 a month", monthly_price: 500, one_time: false, description: "Be recognized as a leader in supporting Elixir education worldwide."}
+      %{
+        name: "$5 a month",
+        monthly_price: 5,
+        one_time: false,
+        description: "Help keep the lights on and lessons flowing for developers around the world."
+      },
+      %{
+        name: "$25 a month",
+        monthly_price: 25,
+        one_time: false,
+        description: "For developers and teams who got their start with Elixir School."
+      },
+      %{
+        name: "$100 a month",
+        monthly_price: 100,
+        one_time: false,
+        description: "For companies that use Elixir in production and want to invest in learning resources."
+      },
+      %{
+        name: "$250 a month",
+        monthly_price: 250,
+        one_time: false,
+        description: "For organizations serious about investing in Elixir education and ecosystem growth."
+      },
+      %{
+        name: "$500 a month",
+        monthly_price: 500,
+        one_time: false,
+        description: "Be recognized as a leader in supporting Elixir education worldwide."
+      }
     ]
   end
 end
