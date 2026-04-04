@@ -8,6 +8,8 @@ defmodule SchoolHouse.Sponsors do
 
   use GenServer
 
+  require Logger
+
   @table :sponsors_cache
   @refresh_interval :timer.minutes(15)
   @github_graphql_url "https://api.github.com/graphql"
@@ -50,7 +52,7 @@ defmodule SchoolHouse.Sponsors do
 
   @impl true
   def init(_) do
-    @table = :ets.new(@table, [:set, :named_table, :public, read_concurrency: true])
+    :ets.new(@table, [:set, :named_table, :public, read_concurrency: true])
     {:ok, %{}, {:continue, :fetch}}
   end
 
@@ -76,7 +78,7 @@ defmodule SchoolHouse.Sponsors do
 
   defp fetch_and_cache do
     case github_token() do
-      nil -> :ok
+      token when token in [nil, ""] -> :ok
       token -> do_fetch(token)
     end
   end
@@ -127,12 +129,18 @@ defmodule SchoolHouse.Sponsors do
             :ets.insert(@table, {:sponsors, sponsors, now})
             :ets.insert(@table, {:tiers, tiers, now})
 
-          _ ->
-            :ok
+          {:ok, %{"errors" => errors}} ->
+            Logger.warning("GitHub Sponsors API returned errors: #{inspect(errors)}")
+
+          {:error, reason} ->
+            Logger.warning("Failed to decode GitHub Sponsors response: #{inspect(reason)}")
         end
 
-      _ ->
-        :ok
+      {:ok, %Finch.Response{status: status, body: body}} ->
+        Logger.warning("GitHub Sponsors API returned HTTP #{status}: #{String.slice(body, 0, 200)}")
+
+      {:error, reason} ->
+        Logger.warning("GitHub Sponsors API request failed: #{inspect(reason)}")
     end
   end
 
