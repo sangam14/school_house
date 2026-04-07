@@ -821,7 +821,7 @@ msgstr "Природа ФП — небольшие функции без поб�
 #: lib/school_house_web/templates/page/why.html.heex:51
 #, elixir-format, elixir-autogen
 msgid "These \"pure functions\" always produce the same results for a given input and change nothing."
-msgstr ""
+msgstr "Эти \"чистые функции\" всегда производят одинаковые результаты для заданного ввода и ничего не изменяют."
 
 #: lib/school_house_web/templates/page/why.html.heex:30
 #, elixir-format
@@ -902,7 +902,7 @@ msgstr "Добро пожаловать в Elixir School!"
 #: lib/school_house_web/templates/page/index.html.heex:9
 #, elixir-format
 msgid "Whether you’re a seasoned veteran or this is your first time, you’ll find what you need in lessons and auxiliary resources."
-msgstr ""
+msgstr "Опытный вы ветеран или новичок — вы найдёте всё необходимое в уроках и дополнительных ресурсах."
 
 #: lib/school_house_web/templates/page/why.html.heex:15
 #, elixir-format, elixir-autogen
@@ -1118,37 +1118,37 @@ msgstr "Переведено на 25+ языков"
 #: lib/school_house_web/templates/page/ecosystem.html.heex:142
 #, elixir-autogen, elixir-format
 msgid "A declarative, resource-oriented application framework. Model your domain, and Ash generates APIs, admin interfaces, and more from your resource definitions."
-msgstr ""
+msgstr "Декларативный, ресурсно-ориентированный фреймворк приложений. Смоделируйте свой домен, и Ash сгенерирует API, интерфейсы администрирования и многое другое из ваших определений ресурсов."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:159
 #, elixir-autogen, elixir-format
 msgid "A full-stack, reactive web framework for Elixir. Write both front-end and back-end code in Elixir with seamless client-server interactivity."
-msgstr ""
+msgstr "Полнофункциональный реактивный веб-фреймворк для Elixir. Пишите как фронтенд-, так и бэкенд-код на Elixir с бесшовным клиент-серверным взаимодействием."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:91
 #, elixir-autogen, elixir-format
 msgid "A toolkit for data mapping and query building. Ecto provides changesets for data validation, composable queries, and database migrations for Elixir applications."
-msgstr ""
+msgstr "Набор инструментов для маппинга данных и построения запросов. Ecto предоставляет наборы изменений для валидации данных, компонуемые запросы и миграции базы данных для приложений Elixir."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:140
 #, elixir-autogen, elixir-format
 msgid "Ash Framework"
-msgstr ""
+msgstr "Ash Framework"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:123
 #, elixir-autogen, elixir-format
 msgid "Broadway"
-msgstr ""
+msgstr "Broadway"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Build and deploy embedded software in Elixir. Craft firmware for Raspberry Pi and other IoT devices with the fault tolerance and reliability of the BEAM."
-msgstr ""
+msgstr "Создавайте и развёртывайте встроенное ПО на Elixir. Разрабатывайте прошивки для Raspberry Pi и других IoT-устройств с отказоустойчивостью и надёжностью BEAM."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:125
 #, elixir-autogen, elixir-format
 msgid "Concurrent, multi-stage data ingestion and processing. Build data pipelines with back-pressure, batching, and fault tolerance powered by GenStage."
-msgstr ""
+msgstr "Параллельная многоэтапная загрузка и обработка данных. Создавайте конвейеры данных с противодавлением, пакетной обработкой и отказоустойчивостью на базе GenStage."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:4
 #, elixir-autogen, elixir-format, fuzzy
@@ -1162,12 +1162,12 @@ msgstr "Discord"
 #: lib/school_house_web/templates/page/index.html.heex:260
 #, elixir-autogen, elixir-format
 msgid "Ecosystem"
-msgstr ""
+msgstr "Экосистема"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:7
 #, elixir-autogen, elixir-format
 msgid "Elixir's ecosystem includes world-class frameworks and tools that make developers productive across domains — from web development and machine learning to embedded systems and data processing."
-msgstr ""
+msgstr "Экосистема Elixir включает фреймворки и инструменты мирового класса, которые делают разработчиков продуктивными в различных областях — от веб-разработки и машинного обучения до встроенных систем и обработки данных."
 
 #: lib/school_house_web/templates/page/index.html.heex:130
 #, elixir-autogen, elixir-format, fuzzy
@@ -1177,71 +1177,71 @@ msgstr "Исследовать"
 #: lib/school_house_web/templates/page/ecosystem.html.heex:157
 #, elixir-autogen, elixir-format
 msgid "Hologram"
-msgstr ""
+msgstr "Hologram"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:40
 #, elixir-autogen, elixir-format
 msgid "Interactive notebooks for Elixir. Explore data, prototype ideas, and collaborate with rich documentation — all in a beautiful web-based interface."
-msgstr ""
+msgstr "Интерактивные блокноты для Elixir. Исследуйте данные, прототипируйте идеи и сотрудничайте с богатой документацией — всё в красивом веб-интерфейсе."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:38
 #: lib/school_house_web/templates/page/index.html.heex:281
 #, elixir-autogen, elixir-format
 msgid "Livebook"
-msgstr ""
+msgstr "Livebook"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:72
 #: lib/school_house_web/templates/page/index.html.heex:299
 #, elixir-autogen, elixir-format
 msgid "Nerves"
-msgstr ""
+msgstr "Nerves"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:57
 #, elixir-autogen, elixir-format
 msgid "Numerical computing and machine learning for Elixir. Run pre-trained models from Hugging Face, build neural networks, and leverage GPU acceleration natively."
-msgstr ""
+msgstr "Числовые вычисления и машинное обучение для Elixir. Запускайте предобученные модели из Hugging Face, создавайте нейронные сети и используйте нативное ускорение GPU."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:55
 #: lib/school_house_web/templates/page/index.html.heex:290
 #, elixir-autogen, elixir-format
 msgid "Nx & Bumblebee"
-msgstr ""
+msgstr "Nx & Bumblebee"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:106
 #, elixir-autogen, elixir-format
 msgid "Oban"
-msgstr ""
+msgstr "Oban"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:21
 #: lib/school_house_web/templates/page/index.html.heex:272
 #, elixir-autogen, elixir-format
 msgid "Phoenix & LiveView"
-msgstr ""
+msgstr "Phoenix & LiveView"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:108
 #, elixir-autogen, elixir-format
 msgid "Robust, database-backed job processing for Elixir. Schedule, queue, and execute background work with reliability, observability, and built-in resilience."
-msgstr ""
+msgstr "Надёжная обработка задач с поддержкой базы данных для Elixir. Планируйте, ставьте в очередь и выполняйте фоновую работу с надёжностью, наблюдаемостью и встроенной устойчивостью."
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "The Elixir Ecosystem"
-msgstr ""
+msgstr "Экосистема Elixir"
 
 #: lib/school_house_web/templates/page/ecosystem.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "The premier web framework for Elixir with built-in real-time UI capabilities. Build rich, interactive applications with server-rendered HTML — no JavaScript framework required."
-msgstr ""
+msgstr "Ведущий веб-фреймворк для Elixir со встроенными возможностями UI реального времени. Создавайте богатые интерактивные приложения с серверным HTML — без необходимости JavaScript-фреймворка."
 
 #: lib/school_house_web/templates/page/index.html.heex:128
 #, elixir-autogen, elixir-format
 msgid "World-class tools like Phoenix, LiveView, Livebook, and Nx. Plus a thriving community with 13,000+ packages on Hex."
-msgstr ""
+msgstr "Инструменты мирового класса: Phoenix, LiveView, Livebook и Nx. Плюс процветающее сообщество с более чем 13 000 пакетов на Hex."
 
 #: lib/school_house_web/templates/page/index.html.heex:300
 #, elixir-autogen, elixir-format
 msgid "Embedded systems and IoT firmware"
-msgstr ""
+msgstr "Встроенные системы и прошивки IoT"
 
 #: lib/school_house_web/templates/page/index.html.heex:305
 #, elixir-autogen, elixir-format, fuzzy
@@ -1251,43 +1251,43 @@ msgstr "Исследовать"
 #: lib/school_house_web/templates/page/index.html.heex:262
 #, elixir-autogen, elixir-format
 msgid "From web development to machine learning and IoT — the Elixir ecosystem has you covered."
-msgstr ""
+msgstr "От веб-разработки до машинного обучения и IoT — экосистема Elixir покрывает всё."
 
 #: lib/school_house_web/templates/page/index.html.heex:282
 #, elixir-autogen, elixir-format
 msgid "Interactive notebooks for exploration and learning"
-msgstr ""
+msgstr "Интерактивные блокноты для исследований и обучения"
 
 #: lib/school_house_web/templates/page/index.html.heex:291
 #, elixir-autogen, elixir-format
 msgid "Machine learning and numerical computing"
-msgstr ""
+msgstr "Машинное обучение и числовые вычисления"
 
 #: lib/school_house_web/templates/page/index.html.heex:261
 #, elixir-autogen, elixir-format
 msgid "Powerful Tools & Frameworks"
-msgstr ""
+msgstr "Мощные инструменты и фреймворки"
 
 #: lib/school_house_web/templates/page/index.html.heex:273
 #, elixir-autogen, elixir-format
 msgid "Real-time web apps with server-rendered HTML"
-msgstr ""
+msgstr "Веб-приложения реального времени с серверным HTML"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:66
 #, elixir-autogen, elixir-format
 msgid "Be Our First Sponsor"
-msgstr ""
+msgstr "Станьте нашим первым спонсором"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:73
 #: lib/school_house_web/templates/page/sponsors.html.heex:97
 #, elixir-autogen, elixir-format
 msgid "Become a Sponsor"
-msgstr ""
+msgstr "Стать спонсором"
 
 #: lib/school_house_web/templates/page/_sponsors_bar.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Become a sponsor"
-msgstr ""
+msgstr "Стать спонсором"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:38
 #, elixir-autogen, elixir-format, fuzzy
@@ -1297,155 +1297,155 @@ msgstr "Сообщество"
 #: lib/school_house_web/templates/page/index.html.heex:331
 #, elixir-autogen, elixir-format
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 #: lib/school_house_web/templates/page/index.html.heex:324
 #, elixir-autogen, elixir-format
 msgid "Continue Learning"
-msgstr ""
+msgstr "Продолжить обучение"
 
 #: lib/school_house_web/templates/lesson/_toc_sidebar.html.heex:9
 #, elixir-autogen, elixir-format
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "Редактировать на GitHub"
 
 #: lib/school_house_web/templates/page/index.html.heex:142
 #, elixir-autogen, elixir-format
 msgid "Elegant, Expressive Code"
-msgstr ""
+msgstr "Элегантный, выразительный код"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:75
 #, elixir-autogen, elixir-format
 msgid "Elixir School is free and always will be. Financial sponsorships help us maintain lessons, fund new content, and keep infrastructure running for developers worldwide."
-msgstr ""
+msgstr "Elixir School бесплатна и всегда будет бесплатной. Финансовое спонсирование помогает нам поддерживать уроки, финансировать новый контент и обеспечивать работу инфраструктуры для разработчиков по всему миру."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Elixir School is free, open-source, and community-driven. Sponsors help us maintain lessons, build new content, and keep Elixir education accessible to everyone."
-msgstr ""
+msgstr "Elixir School бесплатна, имеет открытый исходный код и управляется сообществом. Спонсоры помогают нам поддерживать уроки, создавать новый контент и делать образование Elixir доступным для всех."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:30
 #, elixir-autogen, elixir-format
 msgid "Elixir School serves developers worldwide with lessons translated into dozens of languages. Your support extends that reach."
-msgstr ""
+msgstr "Elixir School обслуживает разработчиков по всему миру уроками, переведёнными на десятки языков. Ваша поддержка расширяет этот охват."
 
 #: lib/school_house_web/templates/page/index.html.heex:143
 #, elixir-autogen, elixir-format
 msgid "From pattern matching to real-time web apps — see why developers fall in love with Elixir."
-msgstr ""
+msgstr "От сопоставления с образцом до веб-приложений реального времени — узнайте, почему разработчики влюбляются в Elixir."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Global Reach"
-msgstr ""
+msgstr "Глобальный охват"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:99
 #, elixir-autogen, elixir-format
 msgid "Join the organizations and individuals who believe in free, accessible Elixir education for everyone."
-msgstr ""
+msgstr "Присоединяйтесь к организациям и людям, которые верят в бесплатное и доступное образование Elixir для всех."
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:77
 #, elixir-autogen, elixir-format
 msgid "Learn more about sponsoring"
-msgstr ""
+msgstr "Узнать больше о спонсорстве"
 
 #: lib/school_house_web/templates/page/index.html.heex:182
 #, elixir-autogen, elixir-format
 msgid "Lightweight Concurrency"
-msgstr ""
+msgstr "Лёгкая конкурентность"
 
 #: lib/school_house_web/templates/lesson/_toc_sidebar.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "On This Page"
-msgstr ""
+msgstr "На этой странице"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:45
 #, elixir-autogen, elixir-format
 msgid "Our Sponsors"
-msgstr ""
+msgstr "Наши спонсоры"
 
 #: lib/school_house_web/templates/page/index.html.heex:217
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Phoenix LiveView"
-msgstr ""
+msgstr "Phoenix LiveView"
 
 #: lib/school_house_web/templates/lesson/_toc_sidebar.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Report an Issue"
-msgstr ""
+msgstr "Сообщить о проблеме"
 
 #: lib/school_house_web/templates/page/index.html.heex:219
 #, elixir-autogen, elixir-format
 msgid "Rich, real-time user experiences with server-rendered HTML. No JavaScript required — just write Elixir and let LiveView handle the rest."
-msgstr ""
+msgstr "Богатый пользовательский опыт в реальном времени с серверным HTML. JavaScript не нужен — просто пишите на Elixir, а LiveView позаботится обо всём остальном."
 
 #: lib/school_house_web/templates/page/index.html.heex:141
 #, elixir-autogen, elixir-format
 msgid "See It in Action"
-msgstr ""
+msgstr "Смотрите в действии"
 
 #: lib/school_house_web/templates/page/index.html.heex:184
 #, elixir-autogen, elixir-format
 msgid "Spawn millions of isolated processes on a single machine — each communicating through message passing. This is the foundation of fault-tolerant, concurrent systems powered by the BEAM virtual machine."
-msgstr ""
+msgstr "Запускайте миллионы изолированных процессов на одной машине — каждый общается через передачу сообщений. Это основа отказоустойчивых конкурентных систем на базе виртуальной машины BEAM."
 
 #: lib/school_house_web/templates/layout/_footer.html.heex:70
 #, elixir-autogen, elixir-format
 msgid "Sponsor"
-msgstr ""
+msgstr "Спонсор"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:104
 #, elixir-autogen, elixir-format
 msgid "Sponsor on GitHub"
-msgstr ""
+msgstr "Спонсировать на GitHub"
 
 #: lib/school_house_web/templates/page/get_involved.html.heex:73
 #, elixir-autogen, elixir-format
 msgid "Sponsor the Project"
-msgstr ""
+msgstr "Спонсировать проект"
 
 #: lib/school_house_web/controllers/page_controller.ex:40
 #: lib/school_house_web/templates/page/sponsors.html.heex:6
 #, elixir-autogen, elixir-format
 msgid "Sponsors"
-msgstr ""
+msgstr "Спонсоры"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:39
 #, elixir-autogen, elixir-format
 msgid "Sponsors are featured on our site and recognized as champions of Elixir education in the community."
-msgstr ""
+msgstr "Спонсоры представлены на нашем сайте и признаны поборниками образования Elixir в сообществе."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:81
 #, elixir-autogen, elixir-format
 msgid "Sponsorship Tiers"
-msgstr ""
+msgstr "Уровни спонсорства"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Support Elixir School"
-msgstr ""
+msgstr "Поддержать Elixir School"
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Support Open Education"
-msgstr ""
+msgstr "Поддержать открытое образование"
 
 #: lib/school_house_web/templates/page/_sponsors_bar.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Supported By"
-msgstr ""
+msgstr "При поддержке"
 
 #: lib/school_house_web/templates/page/index.html.heex:151
 #, elixir-autogen, elixir-format
 msgid "Write expressive, self-documenting code. Instead of if/else chains, each function clause declares exactly what data shape it handles — making your intent crystal clear."
-msgstr ""
+msgstr "Пишите выразительный, самодокументирующийся код. Вместо цепочек if/else каждая клауза функции объявляет, какую именно форму данных она обрабатывает — делая ваши намерения кристально ясными."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:21
 #, elixir-autogen, elixir-format
 msgid "Your sponsorship directly funds new lessons, keeps content current, and supports translations into 25+ languages."
-msgstr ""
+msgstr "Ваше спонсирование напрямую финансирует новые уроки, поддерживает актуальность контента и переводы на более чем 25 языков."
 
 #: lib/school_house_web/templates/page/sponsors.html.heex:68
 #, elixir-autogen, elixir-format
 msgid "Your support helps keep Elixir education free and accessible to developers around the world. Every contribution makes a difference."
-msgstr ""
+msgstr "Ваша поддержка помогает сохранить образование Elixir бесплатным и доступным для разработчиков по всему миру. Каждый вклад имеет значение."
