@@ -85,12 +85,10 @@ defmodule SchoolHouse.Content.Lesson do
   end
 
   defp parse_version(string) do
-    [major, minor, patch] =
-      string
-      |> String.split(".")
-      |> Enum.map(&String.to_integer/1)
-
-    {major, minor, patch}
+    case string |> String.split(".") |> Enum.map(&String.to_integer/1) do
+      [major, minor, patch] -> {major, minor, patch}
+      _ -> raise ArgumentError, "expected version format \"major.minor.patch\", got: #{inspect(string)}"
+    end
   end
 
   defp build_table(matches, acc \\ [])

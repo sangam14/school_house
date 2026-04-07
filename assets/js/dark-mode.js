@@ -46,10 +46,10 @@ if (darkModeToggle) {
     })
 }
 
-// remove preload class after the page loads so the styles
+// Remove preload class after the page loads so the styles
 // will transition smoothly when switching between dark and
 // light mode. Without the preload class, the transition will
-// happen on page load if dark mode is enabled
-setTimeout(() => {
+// happen on page load if dark mode is enabled.
+window.addEventListener('load', () => {
     document.body.classList.remove('preload')
-}, 200)
+})

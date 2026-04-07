@@ -71,11 +71,16 @@ defmodule SchoolHouseWeb.HtmlHelpers do
   # mod -> module
   # asgn -> assigns
   def load_locale_styles(mod, asgn) do
-    sanitized_locale = String.replace(current_locale(), "-", "_")
-    style_func = String.to_atom("#{sanitized_locale}_locale_styles")
+    locale = current_locale()
 
-    if function_exported?(mod, style_func, 1) do
-      apply(mod, style_func, [asgn])
+    if locale in LocaleInfo.list() do
+      sanitized_locale = String.replace(locale, "-", "_")
+      # Safe to use String.to_atom here: locale is validated against the fixed whitelist above
+      style_func = String.to_atom("#{sanitized_locale}_locale_styles")
+
+      if function_exported?(mod, style_func, 1) do
+        apply(mod, style_func, [asgn])
+      end
     end
   end
 

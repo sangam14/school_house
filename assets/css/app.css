@@ -258,7 +258,11 @@ code.inline {
   transition: none !important;
 }
 
-body, body * {
+body,
+.sidebar-link,
+.toc-links a,
+.lesson-nav-btn,
+.toc-action-btn {
   transition: background-color var(--transition), color var(--transition);
 }
 
@@ -303,16 +307,6 @@ button:focus-visible {
 }
 .sidebar-section {
   margin-bottom: 1.75rem;
-}
-.sidebar-section-title {
-  font-family: 'Outfit', sans-serif;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  margin-bottom: 0.6rem;
-  padding: 0 0.5rem;
 }
 .sidebar-link {
   display: flex;
@@ -376,6 +370,14 @@ button:focus-visible {
 }
 /* Section progress counter */
 .sidebar-section-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+  padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

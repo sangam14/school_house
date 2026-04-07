@@ -20,7 +20,14 @@ defmodule SchoolHouseWeb.PageController do
   end
 
   def report(conn, %{"locale" => locale}) do
-    render(conn, "report.html", page_title: gettext("Translation Report"), report: Lessons.translation_report(locale))
+    if locale in SchoolHouse.LocaleInfo.list() do
+      render(conn, "report.html", page_title: gettext("Translation Report"), report: Lessons.translation_report(locale))
+    else
+      conn
+      |> put_status(404)
+      |> put_view(SchoolHouseWeb.ErrorView)
+      |> render("404.html")
+    end
   end
 
   def why(conn, _params) do

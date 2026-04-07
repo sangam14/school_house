@@ -1,6 +1,7 @@
 const STORAGE_KEY = 'elixirschool_progress'
 const CURRENT_VERSION = 1
 const MIN_TIME_BEFORE_COMPLETE = 2000 // ms - guard against instant completion on short lessons
+const TOAST_DURATION = 2500 // ms - how long the completion toast is shown
 
 function loadProgress() {
   try {
@@ -99,7 +100,7 @@ document.addEventListener('alpine:init', () => {
 
     _flashToast() {
       this.showToast = true
-      setTimeout(() => { this.showToast = false }, 2500)
+      setTimeout(() => { this.showToast = false }, TOAST_DURATION)
     }
   })
 })

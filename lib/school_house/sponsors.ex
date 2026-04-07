@@ -51,7 +51,7 @@ defmodule SchoolHouse.Sponsors do
 
   @impl true
   def init(_) do
-    :ets.new(@table, [:set, :named_table, :public, read_concurrency: true])
+    :ets.new(@table, [:set, :named_table, :protected, read_concurrency: true])
     {:ok, %{}, {:continue, :fetch}}
   end
 
@@ -84,8 +84,8 @@ defmodule SchoolHouse.Sponsors do
 
   defp do_fetch(token) do
     query = """
-    {
-      organization(login: "#{@org}") {
+    query($org: String!) {
+      organization(login: $org) {
         sponsorshipsAsMaintainer(first: 100, activeOnly: true) {
           nodes {
             sponsorEntity {
@@ -104,7 +104,7 @@ defmodule SchoolHouse.Sponsors do
     }
     """
 
-    body = Jason.encode!(%{"query" => query})
+    body = Jason.encode!(%{"query" => query, "variables" => %{"org" => @org}})
 
     request =
       Finch.build(
@@ -118,7 +118,7 @@ defmodule SchoolHouse.Sponsors do
         body
       )
 
-    case Finch.request(request, SchoolHouse.Finch) do
+    case Finch.request(request, SchoolHouse.Finch, receive_timeout: 15_000) do
       {:ok, %Finch.Response{status: 200, body: response_body}} ->
         case Jason.decode(response_body) do
           {:ok, %{"data" => data}} ->
