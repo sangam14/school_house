@@ -1,20 +1,17 @@
-const darkModeToggleContainer = document.getElementById(
-    'dark-mode-toggle-container'
-)
-const darkModeToggleInput = document.getElementById('dark-mode-toggle')
+const darkModeToggle = document.getElementById('dark-mode-toggle')
 
-// set up dark mode toggle
 function setDarkMode(on) {
     if (on) {
-        darkModeToggleInput.checked = true
         document.documentElement.setAttribute('data-theme', 'dark')
         document.getElementById('sun-icon').classList.add('hidden')
         document.getElementById('moon-icon').classList.remove('hidden')
     } else {
-        darkModeToggleInput.checked = false
         document.documentElement.removeAttribute('data-theme')
         document.getElementById('moon-icon').classList.add('hidden')
         document.getElementById('sun-icon').classList.remove('hidden')
+    }
+    if (darkModeToggle) {
+        darkModeToggle.setAttribute('aria-pressed', String(on))
     }
 }
 
@@ -36,15 +33,18 @@ if (localStorage.theme) {
     setDarkMode(false)
 }
 
-darkModeToggleContainer.addEventListener('click', function () {
-    if (darkModeToggleInput.checked) {
-        localStorage.theme = 'light'
-        setDarkMode(false)
-    } else {
-        localStorage.theme = 'dark'
-        setDarkMode(true)
-    }
-})
+if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', function () {
+        const isDark = document.documentElement.hasAttribute('data-theme')
+        if (isDark) {
+            localStorage.theme = 'light'
+            setDarkMode(false)
+        } else {
+            localStorage.theme = 'dark'
+            setDarkMode(true)
+        }
+    })
+}
 
 // remove preload class after the page loads so the styles
 // will transition smoothly when switching between dark and

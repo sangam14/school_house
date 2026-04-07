@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="hidden lg:block relative">
-      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10" role="img" aria-label="Elixir code example showing a Greeter module">
         <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
           <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
@@ -56,7 +56,7 @@
 </section>
 
 <!-- Stats Bar -->
-<section class="py-12 px-4 sm:px-6 border-t border-b border-border-subtle bg-surface-secondary">
+<section class="py-12 px-4 sm:px-6 border-t border-b border-border-subtle bg-surface-secondary" aria-label="Elixir community statistics">
   <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
     <div class="text-center">
       <div class="font-heading text-3xl font-extrabold tracking-tight text-brand-500 leading-none mb-1.5">100+</div>
@@ -82,17 +82,17 @@
 </section>
 
 <!-- Why Elixir Features -->
-<section class="py-24 px-4 sm:px-6 max-w-7xl mx-auto">
+<section class="py-24 px-4 sm:px-6 max-w-7xl mx-auto" aria-labelledby="why-elixir-heading">
   <div class="text-center mb-14">
     <div class="font-mono text-xs font-semibold uppercase tracking-[0.12em] text-brand-500 mb-3"><%= gettext("Why Elixir?") %></div>
-    <h2 class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Built for the Modern World") %></h2>
+    <h2 id="why-elixir-heading" class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Built for the Modern World") %></h2>
     <p class="text-lg text-on-surface-secondary max-w-xl mx-auto"><%= gettext("Discover why Elixir's popularity has skyrocketed and new companies adopt it daily.") %></p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     <div class="group relative bg-surface-card border border-border-subtle rounded-design-lg p-8 transition-all duration-300 hover:border-brand-200 hover:shadow-design-lg hover:-translate-y-1 overflow-hidden">
       <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-500 to-brand-300 opacity-0 group-hover:opacity-100 transition-opacity"></div>
       <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-5">
-        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-brand-600" viewBox="0 0 24 24">
+        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-brand-600" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
       </div>
@@ -100,13 +100,13 @@
       <p class="text-sm text-on-surface-secondary leading-relaxed mb-4"><%= gettext("Break problems into simple, side-effect free functions. Better test coverage, fewer bugs, and solutions built from well-tested compositions.") %></p>
       <%= link(to: Routes.page_path(@conn, :why, current_locale()), class: "inline-flex items-center text-sm font-medium text-brand-500 hover:text-brand-600 transition-colors") do %>
         <%= gettext("Learn More") %>
-        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
       <% end %>
     </div>
     <div class="group relative bg-surface-card border border-border-subtle rounded-design-lg p-8 transition-all duration-300 hover:border-brand-200 hover:shadow-design-lg hover:-translate-y-1 overflow-hidden">
       <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-500 to-brand-300 opacity-0 group-hover:opacity-100 transition-opacity"></div>
       <div class="w-12 h-12 rounded-xl bg-green-100/60 flex items-center justify-center mb-5">
-        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-accent-green" viewBox="0 0 24 24">
+        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-accent-green" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       </div>
@@ -114,13 +114,13 @@
       <p class="text-sm text-on-surface-secondary leading-relaxed mb-4"><%= gettext("Built on the Erlang VM (BEAM), battle-tested for 30+ years. Get lightweight processes, fault tolerance, and hot code reloading out of the box.") %></p>
       <%= link(to: Routes.page_path(@conn, :why, current_locale()), class: "inline-flex items-center text-sm font-medium text-brand-500 hover:text-brand-600 transition-colors") do %>
         <%= gettext("Learn More") %>
-        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
       <% end %>
     </div>
     <div class="group relative bg-surface-card border border-border-subtle rounded-design-lg p-8 transition-all duration-300 hover:border-brand-200 hover:shadow-design-lg hover:-translate-y-1 overflow-hidden">
       <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-500 to-brand-300 opacity-0 group-hover:opacity-100 transition-opacity"></div>
       <div class="w-12 h-12 rounded-xl bg-amber-100/60 flex items-center justify-center mb-5">
-        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-accent-amber" viewBox="0 0 24 24">
+        <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6 text-accent-amber" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </div>
@@ -128,18 +128,18 @@
       <p class="text-sm text-on-surface-secondary leading-relaxed mb-4"><%= gettext("World-class tools like Phoenix, LiveView, Livebook, and Nx. Plus a thriving community with 13,000+ packages on Hex.") %></p>
       <%= link(to: Routes.page_path(@conn, :ecosystem, current_locale()), class: "inline-flex items-center text-sm font-medium text-brand-500 hover:text-brand-600 transition-colors") do %>
         <%= gettext("Explore Ecosystem") %>
-        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
       <% end %>
     </div>
   </div>
 </section>
 
 <!-- See Elixir in Action -->
-<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">
+<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle" aria-labelledby="code-examples-heading">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-14">
       <div class="font-mono text-xs font-semibold uppercase tracking-[0.12em] text-brand-500 mb-3"><%= gettext("See It in Action") %></div>
-      <h2 class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Elegant, Expressive Code") %></h2>
+      <h2 id="code-examples-heading" class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Elegant, Expressive Code") %></h2>
       <p class="text-lg text-on-surface-secondary max-w-xl mx-auto"><%= gettext("From pattern matching to real-time web apps — see why developers fall in love with Elixir.") %></p>
     </div>
 
@@ -151,7 +151,7 @@
           <%= gettext("Write expressive, self-documenting code. Instead of if/else chains, each function clause declares exactly what data shape it handles — making your intent crystal clear.") %>
         </p>
       </div>
-      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10" role="img" aria-label="Elixir pattern matching code example">
         <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
           <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
@@ -184,7 +184,7 @@
           <%= gettext("Spawn millions of isolated processes on a single machine — each communicating through message passing. This is the foundation of fault-tolerant, concurrent systems powered by the BEAM virtual machine.") %>
         </p>
       </div>
-      <div class="lg:order-1 bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+      <div class="lg:order-1 bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10" role="img" aria-label="Elixir concurrency with message passing code example">
         <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
           <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
@@ -219,7 +219,7 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
           <%= gettext("Rich, real-time user experiences with server-rendered HTML. No JavaScript required — just write Elixir and let LiveView handle the rest.") %>
         </p>
       </div>
-      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10">
+      <div class="bg-surface-code rounded-design-lg overflow-hidden shadow-design-xl ring-1 ring-brand-500/10" role="img" aria-label="Phoenix LiveView code example">
         <div class="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <span class="w-3 h-3 rounded-full bg-[#ff5f57]"></span>
           <span class="w-3 h-3 rounded-full bg-[#febc2e]"></span>
@@ -254,17 +254,17 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
 </section>
 
 <!-- Ecosystem Highlights -->
-<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">
+<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle" aria-labelledby="ecosystem-heading">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-14">
       <div class="font-mono text-xs font-semibold uppercase tracking-[0.12em] text-brand-500 mb-3"><%= gettext("Ecosystem") %></div>
-      <h2 class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Powerful Tools & Frameworks") %></h2>
+      <h2 id="ecosystem-heading" class="font-heading text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Powerful Tools & Frameworks") %></h2>
       <p class="text-lg text-on-surface-secondary max-w-xl mx-auto"><%= gettext("From web development to machine learning and IoT — the Elixir ecosystem has you covered.") %></p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
       <div class="bg-surface-card border border-border-subtle rounded-design-lg p-6 hover:border-brand-200 hover:shadow-design-md transition-all duration-200">
         <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center mb-4">
-          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
           </svg>
@@ -274,7 +274,7 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
       </div>
       <div class="bg-surface-card border border-border-subtle rounded-design-lg p-6 hover:border-brand-200 hover:shadow-design-md transition-all duration-200">
         <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center mb-4">
-          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
         </div>
@@ -283,7 +283,7 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
       </div>
       <div class="bg-surface-card border border-border-subtle rounded-design-lg p-6 hover:border-brand-200 hover:shadow-design-md transition-all duration-200">
         <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center mb-4">
-          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
         </div>
@@ -292,7 +292,7 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
       </div>
       <div class="bg-surface-card border border-border-subtle rounded-design-lg p-6 hover:border-brand-200 hover:shadow-design-md transition-all duration-200">
         <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center mb-4">
-          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
           </svg>
         </div>
@@ -303,7 +303,7 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
     <div class="text-center">
       <%= link(to: Routes.page_path(@conn, :ecosystem, current_locale()), class: "inline-flex items-center gap-2 px-7 py-3.5 bg-surface-card text-on-surface border border-border-default rounded-full font-semibold text-sm hover:border-brand-400 hover:text-brand-600 hover:-translate-y-0.5 transition-all") do %>
         <%= gettext("Explore the Full Ecosystem") %>
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
       <% end %>
     </div>
   </div>
@@ -334,9 +334,9 @@ child = <span class="text-[#67e8f9]">spawn</span>(<span class="text-[#c084fc] fo
 </div>
 
 <!-- CTA Section -->
-<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle">
+<section class="py-24 px-4 sm:px-6 bg-surface-secondary border-t border-border-subtle" aria-labelledby="cta-heading">
   <div class="max-w-2xl mx-auto text-center">
-    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Ready to Get Started?") %></h2>
+    <h2 id="cta-heading" class="font-heading text-3xl sm:text-4xl font-extrabold tracking-tight text-on-surface mb-4"><%= gettext("Ready to Get Started?") %></h2>
     <p class="text-lg text-on-surface-secondary mb-8"><%= gettext("Jump into your first lesson and discover why developers love Elixir. Free, open-source, and community-driven.") %></p>
     <div class="flex flex-wrap justify-center gap-3">
       <%= link(to: Routes.lesson_path(@conn, :index, current_locale(), "basics"), class: "inline-flex items-center gap-2 px-7 py-3.5 bg-brand-600 text-white rounded-full font-semibold text-sm hover:bg-brand-700 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(124,58,237,0.25)] transition-all") do %>

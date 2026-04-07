@@ -5,6 +5,8 @@ if (menuToggleButton) {
     const mobileMenu = document.getElementById('mobile-menu');
     if (mobileMenu) {
       mobileMenu.classList.toggle('hidden');
+      const isExpanded = !mobileMenu.classList.contains('hidden');
+      menuToggleButton.setAttribute('aria-expanded', String(isExpanded));
     }
   });
 }
