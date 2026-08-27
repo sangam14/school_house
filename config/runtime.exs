@@ -33,15 +33,17 @@ if config_env() == :prod do
     live_view: [signing_salt: live_view_salt],
     server: true
 
-  config :libcluster,
-    topologies: [
-      fly6pn: [
-        strategy: Cluster.Strategy.DNSPoll,
-        config: [
-          polling_interval: 5_000,
-          query: "#{app_name}.internal",
-          node_basename: app_name
+  if System.get_env("ENABLE_CLUSTER") == "true" do
+    config :libcluster,
+      topologies: [
+        fly6pn: [
+          strategy: Cluster.Strategy.DNSPoll,
+          config: [
+            polling_interval: 5_000,
+            query: "#{app_name}.internal",
+            node_basename: app_name
+          ]
         ]
       ]
-    ]
+  end
 end
